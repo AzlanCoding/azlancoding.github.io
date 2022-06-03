@@ -15,9 +15,9 @@ github_username: "AzlanCoding"
 #pinterest_username: username
 #youtube_username: username
 #googleplus_username: +username
-  social_links:
-    twitter: jekyllrb
-    github:  AzlanCoding
+social_links:
+  twitter: jekyllrb
+  github:  AzlanCoding
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
