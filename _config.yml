@@ -19,6 +19,8 @@ github_username: "AzlanCoding"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
+github:
+  is_project_page: false
 
 rss: rss
 
