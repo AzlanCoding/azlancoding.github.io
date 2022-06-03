@@ -24,7 +24,7 @@
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
-          <a href="https://github.com/AzlanCoding" class="btn btn-github"><span class="icon"></span>View me GitHub</a>
+          <a href="https://github.com/AzlanCoding" class="btn btn-github"><span class="icon"></span>View my GitHub</a>
         </section>
       </div>
     </header>
@@ -34,40 +34,6 @@
         {{ content }}
       </section>
     </div>
-      <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-    <ul class="social-media-list"><li><a href="https://github.com/AzlanCoding"><svg class="svg-icon"><use xlink:href="/testsite/assets/minima-social-icons.svg#github"></use></svg> <span class="username">AzlanCoding</span></a></li></ul>
-
-  </div>
-
-</footer>
+      {%- include footer.html -%}
   </body>
 </html>
