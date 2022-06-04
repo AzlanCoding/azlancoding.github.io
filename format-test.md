@@ -55,11 +55,11 @@ Syntax highlighted code block
 <details><summary>CLICK ME</summary>
 
 
-#### We can hide anything, even code!
+<h4 id="header-4">We can hide anything, even code!</h4>
 
-```python
-   print("Hello World")
-```
+<pre><code>print("Hello World")
+</code></pre>
+
 
 
 </details>
