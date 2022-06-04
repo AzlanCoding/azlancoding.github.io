@@ -8,7 +8,7 @@ This is a browser that runs within a website.
 It needs an extension that will be prompted to install on first visit. 
 The goal of this website is to bypass Mobile Guardian as it does not use a proxy. 
 However, not all websites can work. 
-Reddit for example will display here for a few seconds.<b>
+Reddit for example will display here for a few seconds.<br />
 **Websites that seem to not work but actually do:**
  - Spotify Web Player
  - WhatsApp Web
