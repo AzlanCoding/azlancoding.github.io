@@ -1,5 +1,18 @@
 {%- assign social = site.minima.social_links -%}
 
+<style>
+  .orange {
+  color: #f66a0a;
+}
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+  padding: 5px 3px 2px 5px;
+  vertical-align: text-bottom;
+}
+</style>
 <ul class="social-media-list">
   <a rel="me" href="https://github.com/AzlanCoding" target="_blank" title="AzlanCoding"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#gitlab' | relative_url }}"></use></svg></a>
   {%- if social.dribbble -%}<li><a rel="me" href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" target="_blank" title="{{ social.dribbble | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg></a></li>{%- endif -%}
