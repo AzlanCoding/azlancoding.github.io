@@ -53,7 +53,7 @@ Syntax highlighted code block
 
 
 <details><summary>CLICK ME</summary>
-<p>
+
 
 #### We can hide anything, even code!
 
@@ -61,7 +61,7 @@ Syntax highlighted code block
    print("Hello World")
 ```
 
-</p>
+
 </details>
 
 ```
