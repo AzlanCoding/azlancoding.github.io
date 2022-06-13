@@ -53,3 +53,13 @@ take note that `task::sleep(duration)` is in milliseconds so... <br>
 1 second = 1000 milliseconds
 
 <h2 id="control-motor-via-controller-axsis" name="control-motor-via-controller-axsis">Control Motor Via Controller Axsis</h2>
+
+The following code is usually put in the `main()` function during user-control period
+```c++
+LF.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
+LB.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
+RF.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
+RB.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
+```
+The image below is for reference
+![Image](https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/images/controller.jpg)
