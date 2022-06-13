@@ -4,7 +4,7 @@ Motors are initiated in the following format:
 ``` c++
 motor motorname = motor(PORT1, gearsetting::ratio18_1,false);
 ```
-in the `motor()` function there are 3 arguments
+In the `motor()` function there are 3 arguments
 1. port number
 2. The gear setting 
    - gearsetting::ratio6_1 (6:1 (600 RPM) turbo motor)
@@ -13,6 +13,7 @@ in the `motor()` function there are 3 arguments
 3. Wheather to reverse the motors
    - true (will reverse)
    - false (will not reverse)
+<br>
 ## Initiating Controllers
 Controllers are initiated in the following format:
 ``` c++
