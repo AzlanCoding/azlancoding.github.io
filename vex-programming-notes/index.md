@@ -27,17 +27,17 @@ In the `motor()` function there are 3 arguments
   <tbody>
     <tr>
       <td>6:1</td>
-      <td><code>gearsetting::ratio6_1</code></td>
+      <td><pre><code class="language-c++">gearsetting::ratio6_1</code></pre></td>
       <td>(600 RPM) turbo motor</td>
     </tr>
     <tr>
       <td>18:1</td>
-      <td><code>gearsetting::ratio18_1</code></td>
+      <td><pre><code class="language-c++">gearsetting::ratio18_1</code></pre></td>
       <td>(200 RPM) speed motor</td>
     </tr>
     <tr>
       <td>36:1</td>
-      <td><code>gearsetting::ratio36_1</code></td>
+      <td><pre><code class="language-c++">gearsetting::ratio36_1</code></pre></td>
       <td>(100 RPM) strength motor</td>
     </tr>
   </tbody>
