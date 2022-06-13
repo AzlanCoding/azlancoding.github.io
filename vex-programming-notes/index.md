@@ -1,5 +1,8 @@
 # Vex Programmming Notes
 # Vex Programmming Notes
+## Contents
+[Initiating Motors](#Initiating-Motors) <br>
+[Initiating Controllers](#Initiating-Controllers)
 ## Initiating Motors
 Motors are initiated in the following format:
 ``` c++
