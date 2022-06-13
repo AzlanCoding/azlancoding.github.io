@@ -16,11 +16,33 @@ In the `motor()` function there are 3 arguments
 1. port number
 2. The gear setting
 
-| Gear | Code | Description |
-| --- | --- | --- |
-| 6:1 | `gearsetting::ratio6_1` | (600 RPM) turbo motor |
-| 18:1 | `gearsetting::ratio18_1` | (200 RPM) speed motor |
-| 36:1 | `gearsetting::ratio36_1` | (100 RPM) strength motor |
+<table>
+  <thead>
+    <tr>
+      <th>Gear</th>
+       <th>Code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6:1</td>
+      <td><code>gearsetting::ratio6_1</code></td>
+      <td>(600 RPM) turbo motor</td>
+    </tr>
+    <tr>
+      <td>18:1</td>
+      <td><code>gearsetting::ratio18_1</code></td>
+      <td>(200 RPM) speed motor</td>
+    </tr>
+    <tr>
+      <td>36:1</td>
+      <td><code>gearsetting::ratio36_1</code></td>
+      <td>(100 RPM) strength motor</td>
+    </tr>
+  </tbody>
+</table>
+
 3. Wheather to reverse the motors
    - true (will reverse)
    - false (will not reverse)
