@@ -1,8 +1,8 @@
 # Vex Programmming Notes
 # Vex Programmming Notes
 ## Contents
-[Initiating Motors](#Initiating-Motors) <br>
-[Initiating Controllers](#Initiating-Controllers)
+[Initiating Motors](#initiating-motors) <br>
+[Initiating Controllers](#initiating-controllers)
 <h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
 Motors are initiated in the following format:
 ``` c++
