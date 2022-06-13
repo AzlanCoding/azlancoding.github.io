@@ -1,4 +1,5 @@
 # Vex Programmming Notes
+# Vex Programmming Notes
 ## Initiating Motors
 Motors are initiated in the following format:
 ``` c++
