@@ -7,8 +7,8 @@ The homepage for **AzlanCoding** user
 The link above is my notes for people to see.<br>
 You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.
 The notes cover the following:<br>
-- initalising motors
-- initalising controllers
+- [Initiating Motors](/vex-programming-notes/#initiating-motors) <br>
+- [Initiating Controllers](/vex-programming-notes/#initiating-controllers)
 ### [iframe browser](iframe-browser-pwa)
 This is a browser that runs within a website. 
 It needs an extension that will be prompted to install on first visit. 
