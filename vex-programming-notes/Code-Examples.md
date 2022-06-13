@@ -4,6 +4,7 @@
 2. [Move Base Function](#move-base-function)
 3. [2 controller initialization](#2-controller-initialization)
 4. [Control Motor Via Controller Axsis](#control-motor-via-controller-axsis)
+5. [Check Button Pressed](#Check-Button-Pressed)
 
 <h2 id="4-motor-drivetrain-initialization" name="4-motor-drivetrain-initialization">4-motor drivetrain initialization</h2>
 
@@ -63,3 +64,20 @@ RB.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
 ```
 The image below is for reference
 ![Image](https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/images/controller.jpg)
+
+<h2 id="Check-Button-Pressed" name="Check-Button-Pressed">Check Button Pressed</h2>
+
+The following code moves an arm motor when L1 or L2 is pressed. <br> 
+It is usually placed in the `main()` function.
+```c++
+if (V.ButtonL1.pressing)
+{
+  arm.spin(directionType::fwd, 100, velocityUnits::pct);
+}
+else
+{
+  arm.stop();
+  // alternatively you could do the following
+  arm.spin(directionType::fwd, 0, velocityUnits::pct);
+}
+```
