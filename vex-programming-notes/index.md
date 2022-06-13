@@ -3,7 +3,7 @@
 ## Contents
 [Initiating Motors](#Initiating-Motors) <br>
 [Initiating Controllers](#Initiating-Controllers)
-## Initiating Motors
+<h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
 Motors are initiated in the following format:
 ``` c++
 motor motorname = motor(PORT1, gearsetting::ratio18_1,false);
@@ -19,7 +19,7 @@ In the `motor()` function there are 3 arguments
    - false (will not reverse)
 <br>
 
-## Initiating Controllers
+<h2 id="initiating-controllers" name="initiating-controllers">Initiating Controllers</h2>
 Controllers are initiated in the following format:
 ``` c++
 controller controllername = controller(primary);
