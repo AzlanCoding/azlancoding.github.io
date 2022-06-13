@@ -9,6 +9,9 @@ You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) f
 The notes cover the following:<br>
 - [Initiating Motors](/vex-programming-notes/#initiating-motors) <br>
 - [Initiating Controllers](/vex-programming-notes/#initiating-controllers)
+
+<br>
+
 ### [iframe browser](iframe-browser-pwa)
 This is a browser that runs within a website. 
 It needs an extension that will be prompted to install on first visit. 
