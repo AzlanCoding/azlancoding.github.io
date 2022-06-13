@@ -1,5 +1,9 @@
 # Vex Programmming Notes
 # Vex Programmming Notes
+## Quicklinks
+[Vex Doccumentation](https://help.vexcodingstudio.com/#cpp) <br>
+[Code Examples](Code-Examples)
+
 ## Contents
 1. [Initiating Motors](#initiating-motors) <br>
 2. [Initiating Controllers](#initiating-controllers)
