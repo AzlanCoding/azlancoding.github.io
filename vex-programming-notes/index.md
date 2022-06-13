@@ -4,6 +4,8 @@
 1. [Initiating Motors](#initiating-motors) <br>
 2. [Initiating Controllers](#initiating-controllers)
 <br>
+
+
 <h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
 Motors are initiated in the following format:
 ``` c++
@@ -12,9 +14,10 @@ motor motorname = motor(PORT1, gearsetting::ratio18_1,false);
 In the `motor()` function there are 3 arguments
 1. port number
 2. The gear setting 
-   - gearsetting::ratio6_1 (6:1 (600 RPM) turbo motor)
-   - gearsetting::ratio18_1 (18:1 (200 RPM) speed motor which is the default)
-   - gearsetting::ratio36_1 (36:1 (100 RPM) strength motor)
+|Gear|Code|Description|
+|6:1|`gearsetting::ratio6_1`|(600 RPM) turbo motor|
+|18:1|`gearsetting::ratio18_1`|(200 RPM) speed motor|
+|36:1|`gearsetting::ratio36_1`|(100 RPM) strength motor|
 3. Wheather to reverse the motors
    - true (will reverse)
    - false (will not reverse)
