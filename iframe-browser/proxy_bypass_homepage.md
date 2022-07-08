@@ -8,9 +8,9 @@
 <script>
   function Bypass()
     {
-    let url = "https://servermaketest.azlancoding.repl.co?url="
-    url += docuemt.getelementbyid('URL').value
-    window.open(url, '_blank')
+    let url = "https://servermaketest.azlancoding.repl.co?url=";
+    url += docuemt.getelementbyid('URL').value;
+    window.open(url, '_blank');
     }
 </script>
 <input type="text" ID="URL" placeholder="Enter a URL" spellcheck="false" size="25px">
