@@ -39,5 +39,6 @@ Two servers are avaliable:
 This project is originally by [S1monlol/pillow](https://github.com/S1monlol/pillow) <br>
 Hosted by [Heroku: Cloud Application Platform](https://www.heroku.com/) <br>
 You may also visit [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) and install the PWA if you wish to. It uses an iframe to connect to the two servers. The website itself is hosted by github. <br>
-**For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip"**
+**For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip"** <br>
+Note: I have had some complains of the website not working on mobile devices (Andiod and iPad) and I am currently looking into this. If you have any feedback, please contact me from the Gmail button at the bottom. Thanks!
 
