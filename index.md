@@ -24,6 +24,7 @@ Reddit for example will display here for a few seconds.<br />
 
 To vist them in the iframe browser, you need to find the correct link and have the correct settings. <br>
 Please contact me if you need help.<br>
+The installation guide can be found [here](https://azlancoding.github.io/iframe-browser/InstallGuide). <br>
 The website is password protected on certain timings during weekdays as my class uses it during lessons to play games.<br>
 Passwords can be obtained upon request as long as AzlanCoding agrees to give it to you.<br>
 **For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip"** <br>
