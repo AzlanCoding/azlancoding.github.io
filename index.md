@@ -36,11 +36,14 @@ Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the requir
 Three servers are avaliable:
 1. [United States](https://online-browser-us.herokuapp.com/)
 2. [Europe](https://online-browser-eur.herokuapp.com/)
-3. [Replit(US)](https://online-browser.azlancoding.repl.co/) <br>
+3. [Replit(US)](https://online-browser.azlancoding.repl.co/) (Beta server. New functions are tested here before released)<br>
 
 This project is originally by [S1monlol/pillow](https://github.com/S1monlol/pillow) <br>
-Hosted by [Heroku: Cloud Application Platform](https://www.heroku.com/)  except the third one is hosted by [Replit: The collaborative browser based IDE](https://replit.com/)<br>
-You may also visit [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) and install the PWA if you wish to. It uses an iframe to connect to the two servers. The website itself is hosted by github. <br>
+Hosted by [Heroku: Cloud Application Platform](https://www.heroku.com/) <br>
+Except the third one is hosted by [Replit: The collaborative browser based IDE](https://replit.com/)<br>
+You may also visit [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) and install the PWA if you wish to.<br>
+It uses an iframe to connect to the two servers.<br>
+The website itself is hosted by github. <br>
+**NEW:** Now attempts to hide page title and and favicon so that it doesn't appear in your history! <br>
 **For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip" for the online-browser-pwa** <br>
-Note: For all devices, I do not pay for heroku services. Thus, SSL is not avaliable. Please manualy change "http" to "https". This should fix the problem on Andriod and iPad devices.
-
+Note: The Android and iPad issues have been resolved. If you are still having issues, PLEASE contact me from that google button below.
