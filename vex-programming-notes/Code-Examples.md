@@ -10,10 +10,10 @@
 
 The following example is how to initalise motors for a 4 motor drivetrain
 ```c++
-motor LF = motor(PORT1, gearsetting::ratio18_1, true);
-motor LB = motor(PORT2, gearsetting::ratio18_1, true);
-motor RF = motor(PORT3, gearsetting::ratio18_1, true);
-motor RB = motor(PORT4, gearsetting::ratio18_1, true);
+motor LF = motor(PORT1, gearSetting::ratio18_1, true);
+motor LB = motor(PORT2, gearSetting::ratio18_1, true);
+motor RF = motor(PORT3, gearSetting::ratio18_1, true);
+motor RB = motor(PORT4, gearSetting::ratio18_1, true);
 ```
 The last argument in the functions may vary based on how the robot is built
 
