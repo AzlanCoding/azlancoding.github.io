@@ -82,6 +82,9 @@ In the `motor.spin()` function there are 3 arguments.
    - `vex::velocityUnits::pct`(Percentage)
    - `vex::velocityUnits::rpm`(Rotations Per Minute)
    - `vex::velocityUnits::dps`(Degrees Per Second)
+
+<br>
+
 **Note:**
 1. In the second arguement, Speed, if number exceeds the maximum capability of the motor (E.g. 110%), it will only go at the maximum speed (E.g, 100%).
 2. Add `controlername1.axis1.value()` in the second arguement, Speed, if you want the motor to spin according to the movement of the joystick on the controller. `axis1` being the axis you want to control with the motor and `controlername1` being the name of the controller you initialised it with.
