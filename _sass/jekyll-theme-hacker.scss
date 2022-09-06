@@ -202,11 +202,11 @@ td {
   padding: 5px 10px;
 }
 
-#tr th + th {
+tr th + th {
   border-left: 1px dashed $conifer; //separator;
 }
 
-#tr td + td {
+tr td + td {
   border-left: 1px dashed $conifer; //separator;
 }
 
