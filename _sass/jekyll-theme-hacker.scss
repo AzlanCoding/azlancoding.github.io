@@ -22,7 +22,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  border-bottom: 1px dashed $conifer; //footer;
+}
+
+footer {
+  border-top: 1px dashed $conifer; //footer;
 }
 
 /* General & 'Reset' Stuff */
