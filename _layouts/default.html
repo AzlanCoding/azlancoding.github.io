@@ -23,6 +23,25 @@
   background-color: #1a1a1a;
   color: #7ea03f;
 }
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  height: 5px;
+  display: block;
+}
+.progress-bar {
+  background-color: red;
+  width: 0%;
+  display: block;
+  height: inherit;
+}
 </style>
 <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/programming.ico">
 <html lang="{{ site.lang | default: "en-US" }}">
@@ -57,6 +76,9 @@
   </head>
 
   <body>
+    <div class="progress-container fixed-top">
+      <span class="progress-bar"></span>
+    </div>
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
@@ -96,6 +118,44 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+function scrollProgressBar() {
+  var getMax = function () {
+    return $(document).height() - $(window).height();
+  };
+
+  var getValue = function () {
+    return $(window).scrollTop();
+  };
+
+  var progressBar = $(".progress-bar"),
+    max = getMax(),
+    value,
+    width;
+
+  var getWidth = function () {
+    // Calculate width in percentage
+    value = getValue();
+    width = (value / max) * 100;
+    width = width + "%";
+    return width;
+  };
+
+  var setWidth = function () {
+    progressBar.css({ width: getWidth() });
+  };
+
+  $(document).on("scroll", setWidth);
+  $(window).on("resize", function () {
+    // Need to reset max
+    max = getMax();
+    setWidth();
+  });
+}
+$(document).ready(function () {
+  SF_scripts();
+
+  scrollProgressBar();
+});
 </script>
       <section id="main_content">
         {{ content }}
