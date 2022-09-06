@@ -64,12 +64,15 @@
   display: block;
   height: inherit;
 }
-footer {
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  border-top: 1px dashed $conifer; //header;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
+body {
+  margin: 0;
+  padding: 0;
+  background: $body-background url("../images/bkg.png") 0 0;
+  color: $body-foreground;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  border-bottom: 1px dashed $conifer; //footer
 }
 </style>
 <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/programming.ico">
@@ -194,7 +197,5 @@ $(document).ready(function () {
       </section>
     </div>
   </body>
-  <footer>
-    {%- include footer.html -%}
-  </footer>
+  {%- include footer.html -%}
 </html>
