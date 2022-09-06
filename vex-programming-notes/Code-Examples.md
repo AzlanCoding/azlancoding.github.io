@@ -10,10 +10,10 @@
 
 The following example is how to initalise motors for a 4 motor drivetrain
 ```c++
-motor LF = motor(PORT1, gearSetting::ratio18_1, true);
-motor LB = motor(PORT2, gearSetting::ratio18_1, true);
-motor RF = motor(PORT3, gearSetting::ratio18_1, true);
-motor RB = motor(PORT4, gearSetting::ratio18_1, true);
+vex::motor LF = vex::motor(PORT1, gearSetting::ratio18_1, true);
+vex::motor LB = vex::motor(PORT2, gearSetting::ratio18_1, true);
+vex::motor RF = vex::motor(PORT3, gearSetting::ratio18_1, true);
+vex::motor RB = vex::motor(PORT4, gearSetting::ratio18_1, true);
 ```
 The last argument in the functions may vary based on how the robot is built
 
@@ -21,8 +21,8 @@ The last argument in the functions may vary based on how the robot is built
 
 The following is the default method to initialise Horizontal and Vertical (Primary and Secondary) controllers.
 ```c++
-controller H = controller(primary);
-controller V = controller(partner);
+vex::controller H = vex::controller(primary);
+vex::controller V = vex::controller(partner);
 ```
 
 <h2 id="move-base-function" name="move-base-function">Move Base Function</h2>
