@@ -50,8 +50,8 @@ In the `motor()` function there are 3 arguments.
 </table>
 
 3. Wheather to reverse the motors
-   - true (will reverse)
-   - false (will not reverse)
+   - `true` (will reverse)
+   - `false` (will not reverse)
 <br>
 
 <h2 id="initiating-controllers" name="initiating-controllers">Initiating Controllers</h2>
