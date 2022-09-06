@@ -189,6 +189,7 @@ code.highlighter-rouge {
 table {
   width: 100%;
   margin: 0 0 20px 0;
+  border: 1px dashed $conifer; //border;
 }
 
 th {
@@ -199,6 +200,14 @@ th {
 
 td {
   padding: 5px 10px;
+}
+
+#tr th + th {
+  border-left: 1px dashed $conifer; //separator;
+}
+
+#tr td + td {
+  border-left: 1px dashed $conifer; //separator;
 }
 
 hr {
