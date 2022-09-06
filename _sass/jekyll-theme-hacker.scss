@@ -210,6 +210,10 @@ tr td + td {
   border-left: 1px dashed $conifer; //separator;
 }
 
+tbody tr + tr {
+  border-top: 1px dashed $conifer; //separator;
+}
+
 hr {
   height: 0;
   border: 0;
