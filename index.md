@@ -31,7 +31,7 @@ Passwords can be obtained upon request as long as AzlanCoding agrees to give it 
 
 <br>
 
-### Online Browser **(NEW!!!)**
+### Online Browser
 Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the required extension for iframe-browser-pwa) <br>
 Three servers are avaliable:
 1. [United States](https://online-browser-us.herokuapp.com/)
@@ -47,3 +47,16 @@ The website itself is hosted by github. <br>
 **NEW:** Now attempts to hide page title and and favicon so that it doesn't appear in your history! <br>
 **For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip" for the online-browser-pwa** <br>
 Note: The Android and iPad issues have been resolved. If you are still having issues, PLEASE contact me from that google button below.
+
+<br>
+
+### Virtual Browser Beta **(EXPERIMENTAL)**
+Made to bypass any system as it uses a virtual machine to run chrome thanks [Replit: The collaborative browser based IDE](https://replit.com/). <br>
+As of now, only 1 sever is avaliable:
+1. [Replit(US)](https://replit.com/@azlancoding/virtual-browser-beta?embed=true) <br>
+
+Take note that **you need to create an account in order to use virtual-browser-beta**. <br>
+If you would like to use it without an account, use the [original virtual browser](https://replit.com/@azlancoding/free-and-unlimited-cloud-browser?embed=true).<br>
+Terms and Conditions for the Browser can be found [here](virtual-browser-beta/TermsAndConditions)<br>
+For any account modification or deletion, please contact me using the Gmail button at the bottom of the page.<br>
+Take note that your password is encrypted but exposed to public, making it insecure. The data could be accessed by anyone who forks the code and modifies it.<br>
