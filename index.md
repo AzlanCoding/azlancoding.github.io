@@ -24,8 +24,8 @@ Reddit for example will display here for a few seconds.<br />
 
 **Websites that [require further action](/whatsapp-and-others):**
  - WhatsApp Web<br><br>
-<br>
-&ast; not all websites are listed here<br>
+
+Not all websites are listed here<br>
 To vist them in the iframe browser, you need to find the correct link and have the correct settings. <br>
 Please contact me if you need help.<br>
 The installation guide can be found [here](https://azlancoding.github.io/iframe-browser/InstallGuide). <br>
