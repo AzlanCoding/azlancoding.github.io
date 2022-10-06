@@ -37,6 +37,8 @@ Passwords can be obtained upon request as long as AzlanCoding agrees to give it 
 
 ### Online Browser
 Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the required extension for iframe-browser-pwa) <br>
+**ATTENTION**<br>
+**After 28 November 2022, all of my heroku servers will shut down as Heroku will [discontinue all free Dynos](https://blog.heroku.com/next-chapter). [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) will also no longer work**<br>
 Three servers are avaliable:
 1. [United States](https://online-browser-us.herokuapp.com/)
 2. [Europe](https://online-browser-eur.herokuapp.com/)
@@ -48,7 +50,7 @@ Except the third one is hosted by [Replit: The collaborative browser based IDE](
 You may also visit [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) and install the PWA if you wish to.<br>
 It uses an iframe to connect to the two servers.<br>
 The website itself is hosted by github. <br>
-**NEW:** Now attempts to hide page title and and favicon so that it doesn't appear in your history! <br>
+It also attempts to hide page title and and favicon so that it doesn't appear in your history! <br>
 **For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip" for the online-browser-pwa** <br>
 Note: The Android and iPad issues have been resolved. If you are still having issues, PLEASE contact me from that google button below.
 
