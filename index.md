@@ -22,7 +22,7 @@ Reddit for example will display here for a few seconds.<br />
  - Spotify Web Player
  - Reddit<br><br>
 
-**Websites that [require further action](/whatsapp-and-others):**
+**Websites that [require further action](/iframe-browser/whatsapp-and-others):**
  - WhatsApp Web<br><br>
 
 Not all websites are listed here<br>
