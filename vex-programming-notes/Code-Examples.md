@@ -59,8 +59,8 @@ The following code is usually put in the `main()` function during user-control p
 ```c++
 LF.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
 LB.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
-RF.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
-RB.spin(directionType::fwd, H.Axis3.value(), velocityUnits::pct);
+RF.spin(directionType::fwd, H.Axis2.value(), velocityUnits::pct);
+RB.spin(directionType::fwd, H.Axis2.value(), velocityUnits::pct);
 ```
 The image below is for reference
 ![Image](https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/images/controller.jpg)
