@@ -64,10 +64,12 @@ RB.spin(directionType::fwd, H.Axis2.value(), velocityUnits::pct);
 ```
 The image below is for reference
 ![Image](https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/images/controller.jpg)
+Image source:<a href="https://www.vexforum.com/t/holonomic-drive-train-code/89166/14">Holonomic drive train code - VEX Robotics Competition Discussion / VRC > Change Up (20/21) - VEX Forum</a>
+<br>
 
 <h2 id="Check-Button-Pressed" name="Check-Button-Pressed">Check Button Pressed</h2>
 
-The following code moves an arm motor when L1 or L2 is pressed. <br> 
+The following code moves an arm motor when L1 or L2 is pressed. <br>
 It is usually placed in the `main()` function.
 ```c++
 if (V.ButtonL1.pressing)
