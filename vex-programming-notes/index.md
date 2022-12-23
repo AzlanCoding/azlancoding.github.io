@@ -98,10 +98,33 @@ Alternatively, you can also specify the way you want it to stop:
 ```c++
 motor1.stop(brakeType::coast);
 motor2.stop(brakeType::brake);
-motor3.stop(brakeType::brake);
+motor3.stop(brakeType::hold);
 ```
 `motor.stop()` takes 1 **optional** argument:
 1. `brakeType` (How you want the motor to stop.
+There are 3 types of `brakeType`:
+<table>
+  <thead>
+    <tr>
+       <th>BrakeType</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><pre><code class="language-c++">brakeType::coast</code></pre></td>
+      <td>Motor stop accelerating, slowly coming to a stop. Motor is still movable by external forces.</td>
+    </tr>
+    <tr>
+      <td><pre><code class="language-c++">brakeType::brake</code></pre></td>
+      <td>Stops motor completely. Does not return to original position (when braking was called) if moved.</td>
+    </tr>
+    <tr>
+      <td><pre><code class="language-c++">brakeType::hold</code></pre></td>
+      <td>Stops motor completely and returns to original position (when braking was called) if moved.</td>
+    </tr>
+  </tbody>
+</table>
 <h2 id="wait" name="wait">Wait</h2>
 You can add a wait block using the following format:
 ```c++
@@ -256,3 +279,33 @@ controller.ButtonB.pressing();
 controller.ButtonX.pressing();
 controller.buttonY.pressing();
 ```
+<h2 id="controller-vibrate" name="controller-vibrate">Controller Vibration</h2>
+Controller vibration allows you to get the attention of the controller if something happened or went wrong such as motor port disconnection. You can do so using the following function:
+```c++
+controller.rumble('-.-');
+```
+This function takes in 1 of the following arguments:
+1. const char *str (A string consisting of dots and dashes to represent a rumble pattern)
+	The table below explains the dots and dashes.
+	<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+       <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><pre><code class="language-c++">-</code></pre></td>
+      <td>Long Rumble</td>
+    </tr>
+    <tr>
+      <td><pre><code class="language-c++">.</code></pre></td>
+      <td>Short Rumble</td>
+    </tr>
+  </tbody>
+</table>
+2. predefined rumble options:
+	- `rumbleLong` (Same as `----`)
+	- `rumbleShort` (Same as `....`)
+	- `rumblePulse` (Same as `-.-.`)
