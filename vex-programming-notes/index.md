@@ -159,7 +159,8 @@ Both functions for Brain and Controller below take in 2 arguments: <br>
  - As a 'int32_t ' (a.k.a integer) format. <br>
 2. Column <br>
  - As a 'int32_t ' (a.k.a integer) format. <br>
- <br>
+<br>
+<br>
 Below is an image from <a href="https://codev5.vex.com/" target="_blank">codev5.vex.com</a> to explain the columns and rows.
 <h3 id="set-cursorA" name="set-cursorA">Brain</h3>
 ![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_row_column_brain.jpg)
@@ -235,7 +236,7 @@ H.Screen.print("Controller Ready");
 <h2 id="controller-input" name="controller-input">Controller Input</h2>
 Controller input is the most important as it allows you to control your robot based on controller inputs. Below showcases a controller and all it's input methods.<br>
 ![!Image](https://www.vexforum.com/uploads/default/original/3X/6/f/6f270188ac61c5b23087b2cb871029427e00790e.jpeg)
-Image source:<a href="https://www.vexforum.com/t/holonomic-drive-train-code/89166/14">Holonomic drive train code - VEX Robotics Competition Discussion / VRC > Change Up (20/21) - VEX Forum</a>
+Image source:<a href="https://www.vexforum.com/t/holonomic-drive-train-code/89166/14" target="_blank">Holonomic drive train code - VEX Robotics Competition Discussion / VRC > Change Up (20/21) - VEX Forum</a>
 <br>
 There are 2 main types of inputs:<br>
 1. Axis (joystick)
@@ -311,3 +312,6 @@ The table below explains the dots and dashes:<br><br>
 	- `rumbleLong` (Same as `----`)
 	- `rumbleShort` (Same as `....`)
 	- `rumblePulse` (Same as `-.-.`)
+
+<h2 id="motor-settings" name="motor-settings">Motor Settings</h2>
+When you move motors but don't specify the settings, it relys on the default setting or the one it was set. For example if `motor.stop()` was called without the optional argument `breakType`, it will rely on the setting set by `motor.setStopping()`
