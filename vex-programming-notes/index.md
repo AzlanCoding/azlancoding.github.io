@@ -83,7 +83,7 @@ In the `motor.spin()` function there are 3 arguments.
    - `vex::velocityUnits::rpm`(Rotations Per Minute)
    - `vex::velocityUnits::dps`(Degrees Per Second)
 
-<br>
+
 
 **Note:**
 1. In the second arguement, Speed, if number exceeds the maximum capability of the motor (E.g. 110%), it will only go at the maximum speed (E.g, 100%).
@@ -265,6 +265,7 @@ In each controller there are 12 buttons (not including power button and hidden r
 11. ButtonX
 12. ButtonY
 <br>
+
 Based on the button that you want, you can call the following function which will return a bool (true or false):
 ```c++
 controller.buttonR1.pressing();
