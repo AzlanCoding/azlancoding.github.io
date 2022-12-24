@@ -1,8 +1,8 @@
 # Vex Programmming Notes
 # Vex Programmming Notes
 ## Quicklinks
-[Code Examples](Code-Examples)
-[Vex Doccumentation (External link)](https://help.vexcodingstudio.com/#cpp) <br>
+<a href="Code-Examples">Code Examples</a>
+<a href="https://help.vexcodingstudio.com/#cpp" target="_blank">Vex Doccumentation (External link)</a><br>
 
 
 ## Contents
