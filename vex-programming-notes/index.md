@@ -159,8 +159,8 @@ Both functions for Brain and Controller below take in 2 arguments: <br>
  - As a 'int32_t ' (a.k.a integer) format. <br>
 2. Column <br>
  - As a 'int32_t ' (a.k.a integer) format. <br>
-<br>
-<br>
+
+
 Below is an image from <a href="https://codev5.vex.com/" target="_blank">codev5.vex.com</a> to explain the columns and rows.
 <h3 id="set-cursorA" name="set-cursorA">Brain</h3>
 ![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_row_column_brain.jpg)
