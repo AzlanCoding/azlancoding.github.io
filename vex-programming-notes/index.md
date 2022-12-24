@@ -106,7 +106,7 @@ There are 3 types of `brakeType`:
 <table>
   <thead>
     <tr>
-       <th>BrakeType</th>
+       <th>brakeType</th>
       <th>Description</th>
     </tr>
   </thead>
@@ -287,8 +287,9 @@ controller.rumble('-.-');
 This function takes in 1 of the following arguments: <br>
 1. const char *str (A string consisting of dots and dashes to represent a rumble pattern)
 <br>
-The table below explains the dots and dashes.<br>
-	<table>
+The table below explains the dots and dashes:<br><br>
+
+<table>
   <thead>
     <tr>
       <th>Type</th>
