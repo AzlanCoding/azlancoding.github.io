@@ -7,13 +7,21 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  transition: background 2s ease;
+  background: #b5e853;
+  /*transition: background 2s ease;*/
 }
 
-/* Handle on hover */
+body.mousescroll {
+    overflow: hidden;
+}
+body.mousescroll:hover {
+    overflow-y: scroll;
+}
+
+/* Handle on hover
 ::-webkit-scrollbar-thumb:hover {
   background: #b5e853;
-}
+}*/
 </style>
 <style>
   #text {
