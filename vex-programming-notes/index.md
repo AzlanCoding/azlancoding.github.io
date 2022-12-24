@@ -284,7 +284,7 @@ Controller vibration allows you to get the attention of the controller if someth
 ```c++
 controller.rumble('-.-');
 ```
-This function takes in 1 of the following arguments:
+This function takes in 1 of the following arguments: <br>
 1. const char *str (A string consisting of dots and dashes to represent a rumble pattern)
 	The table below explains the dots and dashes.
 	<table>
