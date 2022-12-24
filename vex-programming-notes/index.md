@@ -315,4 +315,13 @@ The table below explains the dots and dashes:<br><br>
 	- `rumblePulse` (Same as `-.-.`)
 
 <h2 id="motor-settings" name="motor-settings">Motor Settings</h2>
-When you move motors but don't specify the settings, it relys on the default setting or the one it was set. For example if `motor.stop()` was called without the optional argument `breakType`, it will rely on the setting set by `motor.setStopping()`
+When you move motors but don't specify the settings, it relys on the default setting or the one it was set. For example if `motor.stop()` was called without the optional argument `breakType`, it will rely on the setting set by `motor.setStopping()`.<br>
+There are many settings you can set: Below is a table of most common settings and uses:<br>
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Use</th>
+      <th>Description</th>
+    </tr>
+  </thead>
