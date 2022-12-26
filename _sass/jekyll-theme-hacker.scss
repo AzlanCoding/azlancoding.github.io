@@ -161,7 +161,7 @@ ul li {
 
 blockquote {
   color: $blockquote-color;
-  padding-left: 10px;
+  padding-left: 0px;
   border-left: 1px dotted $blockquote-border;
   margin-inline-start: auto;
 }
@@ -191,6 +191,7 @@ table {
   width: 100%;
   margin: 0 0 20px 0;
   border: 1px dashed $conifer; //border;
+  overflow: scroll;
 }
 
 th {
