@@ -175,7 +175,8 @@ pre {
   border-radius: 2px;
   word-wrap: normal;
   overflow: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 code.highlighter-rouge {
@@ -191,7 +192,6 @@ table {
   width: 100%;
   margin: 0 0 20px 0;
   border: 1px dashed $conifer; //border;
-  //overflow: scroll;
 }
 
 th {
