@@ -313,15 +313,15 @@ Based on the button that you want, you can call the following function which wil
 ```c++
 controller.buttonR1.pressing();
 controller.buttonR2.pressing();
-controller.ButtonL1.pressing();
+controller.buttonL1.pressing();
 controller.buttonL2.pressing();
-controller.ButtonUp.pressing();
-controller.ButtonDown.pressing();
-controller.ButtonLeft.pressing();
-controller.ButtonRight.pressing();
+controller.buttonUp.pressing();
+controller.buttonDown.pressing();
+controller.buttonLeft.pressing();
+controller.buttonRight.pressing();
 controller.buttonA.pressing();
-controller.ButtonB.pressing();
-controller.ButtonX.pressing();
+controller.buttonB.pressing();
+controller.buttonX.pressing();
 controller.buttonY.pressing();
 ```
 <h2 id="controller-vibration" name="controller-vibration">Controller Vibration</h2>
