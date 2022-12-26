@@ -12,8 +12,8 @@
 4. [Stopping Motors](#stoping-motors)<br>
 5. [Wait](#wait)<br>
 6. [Printing](#printing)<br>
- > 1. [Brain](#printingA)<br>
- > 2. [Controller](#printingB)<br>
+> 1. [Brain](#printingA)<br>
+> 2. [Controller](#printingB)<br>
 7. [Set Cursor](#set-cursor)
 
 

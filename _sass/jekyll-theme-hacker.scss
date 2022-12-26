@@ -163,6 +163,7 @@ blockquote {
   color: $blockquote-color;
   padding-left: 10px;
   border-left: 1px dotted $blockquote-border;
+  margin-inline-start: auto;
 }
 
 pre {
