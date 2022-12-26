@@ -9,7 +9,12 @@
 1. [Initiating Motors](#initiating-motors) <br>
 2. [Initiating Controllers](#initiating-controllers)<br>
 3. [Spinning Motors](#spinning-motors)<br>
-4. [Wait](#wait)<br>
+4. [Stopping Motors](#stoping-motors)<br>
+5. [Wait](#wait)<br>
+6. [Printing](#printing)<br>
+  1. [Brain](#printingA)<br>
+  2. [Controller](#printingB)<br>
+7. [Set Cursor](#set-cursor)
 
 
 <h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
@@ -58,8 +63,8 @@ In the `motor()` function there are 3 arguments.
 
 Controllers are initiated in the following format:
 ``` c++
-vex::controller controllername1 = vex::controller(primary);
-vex::controller controllername2 = vex::controller(partner);
+controller controllername1 = controller(primary);
+controller controllername2 = controller(partner);
 ```
 In the `controller()` function there is 1 argument.
 1. The controller types
@@ -70,18 +75,18 @@ In the `controller()` function there is 1 argument.
 <h2 id="spinning-motors" name="spinning-motors">Spinning Motors</h2>
 You can spin motors in the following format:
 ``` c++
-motorname.spin(vex::directionType::fwd,100,vex::velocityUnits::pct);
+motorname.spin(directionType::fwd,100,velocityUnits::pct);
 ```
 In the `motor.spin()` function there are 3 arguments.
 1. The direction
-   - `vex::directionType::fwd`(Forward)
-   - `vex::directionType::rev`(Revese/Backward)
+   - `directionType::fwd`(Forward)
+   - `directionType::rev`(Revese/Backward)
 2. Speed
    - Any value between -100 to 100 (negative numbers go backwards)
 3. The mesurement used in speed
-   - `vex::velocityUnits::pct`(Percentage)
-   - `vex::velocityUnits::rpm`(Rotations Per Minute)
-   - `vex::velocityUnits::dps`(Degrees Per Second)
+   - `velocityUnits::pct`(Percentage)
+   - `velocityUnits::rpm`(Rotations Per Minute)
+   - `velocityUnits::dps`(Degrees Per Second)
 
 
 
@@ -128,7 +133,7 @@ There are 3 types of `brakeType`:
 <h2 id="wait" name="wait">Wait</h2>
 You can add a wait block using the following format:
 ```c++
-vex::task::sleep(Time);
+task::sleep(Time);
 ```
 In the `sleep()` function there is 1 argument.
 1. Time in miliseconds
@@ -152,7 +157,7 @@ H.Screen.print("H Controller");
 V.Screen.print("V Controller");
 ```
 
-<h2 id="set-cursor" name="set-cursor">set Cursor</h2>
+<h2 id="set-cursor" name="set-cursor">Set Cursor</h2>
 Setting cursor position for printing.<br><br>
 Both functions for Brain and Controller below take in 2 arguments: <br>
 1. Row <br>
@@ -161,10 +166,7 @@ Both functions for Brain and Controller below take in 2 arguments: <br>
  - As a 'int32_t ' (a.k.a integer) format. <br>
 
 
-Below is an image from <a href="https://codev5.vex.com/" target="_blank">codev5.vex.com</a> to explain the columns and rows.
 <h3 id="set-cursorA" name="set-cursorA">Brain</h3>
-![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_row_column_brain.jpg)
-![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_controller_rows_columns.jpg)
 ```c++
 Brain.Screen.setCursor(1, 1);
 Brain.Screen.print("Autonomous code started");
@@ -174,6 +176,8 @@ Brain.Screen.setCursor(3, 2);
 Brain.Screen.print("Going Straight");
 //Turn left... Go Straight... Turn right...
 ```
+Below is an image from <a href="https://codev5.vex.com/" target="_blank">codev5.vex.com</a> to explain the columns and rows in a Brain's screen.
+![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_row_column_brain.jpg)
 <h3 id="set-cursorB" name="set-cursorB">Controllers</h3>
 ```c++
 Brain.Screen.setCursor(1, 1);
@@ -181,6 +185,8 @@ H.Screen.print("H Controller");
 Brain.Screen.setCursor(2, 1);
 H.Screen.print("Controller Ready");
 ```
+Below is an image from <a href="https://codev5.vex.com/" target="_blank">codev5.vex.com</a> to explain the columns and rows in a controller screen.
+![Image](https://codev5.vex.com/static/help/v5/blocks/en/set_cursor/v5_controller_rows_columns.jpg)
 <h2 id="new-line" name="new-line">New Line</h2>
 Sets cursor to the next line.<br><br>
 Both functions below don't take arguments.
@@ -362,7 +368,7 @@ There are many settings you can set: Below is a table of most common settings an
     </tr>
   </tbody>
 </table>
-    
+
 <h2 id="motor-data" name="motor-data">Motor Data</h2>
 You can get a motor's data to calciulate turns or detect if a motor has been disconnected. Below shows a table of the data you can get and the functions you can use to get that data.
 <table>
@@ -432,11 +438,11 @@ You can get a motor's data to calciulate turns or detect if a motor has been dis
   </tbody>
 </table>
 <h2 id="digital-out" name="digital-out">Digital Out</h2>
-Digital out is used for pistons in 3 wire ports. 
+Digital out is used for pistons in 3 wire ports.
 <h3 id="digital-outA" name="digital-outA">Setting</h3>
 The state of a Digital Out component can be set through `digital_out.set(bool value)`
 It takes in 1 argument:
 1. `bool` (State `true` or `false`) <br>
 <h3 id="digital-outB" name="digital-outB">Getting Data</h3>
 Getting the state of a Digital Out component can be obtain through `digital_out.value()`
-It returns a `bool` (State `true` or `false`) 
+It returns a `bool` (State `true` or `false`)
