@@ -30,6 +30,26 @@
 > 1. [Axis](#controller-inputA)<br>
 > 2. [Button](#controller-inputB)<br>
 12. [Controller Vibration](#controller-vibration)
+13. [Motor Settings](#motor-settings)<br>
+> 1. [Stopping](#motor-settingsA)<br>
+> 2. [Velocity](#motor-settingsB)<br>
+> 3. [Rotation](#motor-settingsC)<br>
+> 4. [Reset Rotation](#motor-settingsD)<br>
+> 5. [Timeout](#motor-settingsE)<br>
+> 6. [Max Torque](#motor-settingsF)<br>
+14. [Motor Data](#motor-data)<br>
+> 1. [Spinning](#motor-dataA)<br>
+> 2. [Direction](#motor-dataB)<br>
+> 3. [Rotation](#motor-dataC)<br>
+> 4. [Velocity](#motor-dataD)<br>
+> 5. [Current](#mototr-dataE)<br>
+> 6. [Power](#motor-dataF)<br>
+> 7. [Torque](#motor-dataG)<br>
+> 8. [Efficiency](#motor-dataH)<br>
+> 9. [Temperature](#motor-dataI)<br>
+15. [Digital Out](#digital-out)<br>
+> 1. [Setting](#digital-outA)<br>
+> 2. [Getting Data](#digital-outB)<br>
 
 
 <h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
@@ -345,37 +365,37 @@ There are many settings you can set: Below is a table of most common settings an
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr id="motor-settingsA" name="motor-settingsA">
       <td>Stopping</td>
       <td><pre><code class="language-c++">motor.setStopping();</code></pre></td>
       <td>Sets the default <pre><code class="language-c++">breakType</code></pre></td>
       <td><ol><li><pre><code class="language-c++">breakType</code></pre> <ul><li><pre><code class="language-c++">breakType::coast</code></pre></li><li><pre><code class="language-c++">breakType::brake</code></pre></li><li><pre><code class="language-c++">brakeType::hold</code></pre></li></ul></li></ol></td>
     </tr>
-    <tr>
+    <tr id="motor-settingsB" name="motor-settingsB">
       <td>Velocity</td>
       <td><pre><code class="language-c++">motor.setVelocity();</code></pre></td>
       <td>Sets the default <pre><code class="language-c++">velocityUnits</code></pre></td>
       <td><ol><li>Velocity (<pre><code class="language-c++">double</code></pre>)</li><li><pre><code class="language-c++">velocityUnits</code></pre> <ul><li><pre><code class="language-c++">velocityUnits::pct</code></pre> (Percentage)</li><li><pre><code class="language-c++">velocityUnits::rpm</code></pre> (Rotations per minute)</li><li><pre><code class="language-c++">velocityUnits::dps</code></pre> (Degrees per second)</li></ul></li></ol></td>
     </tr>
-    <tr>
+    <tr id="motor-settingsC" name="motor-settingsC">
       <td>Rotation</td>
       <td><pre><code class="language-c++">motor.setRotation();</code></pre></td>
       <td>Sets the value of the motor's built-in encoder.</td>
       <td><ol><li>Rotation (<pre><code class="language-c++">double</code></pre>)</li><li><pre><code class="language-c++">rotationUnits</code></pre> <ul><li><pre><code class="language-c++">rotationUnits::deg</code></pre> (Degrees)</li><li><pre><code class="language-c++">rotationUnits::rev</code></pre> (Revolutions)</li><li><pre><code class="language-c++">rotationUnits::raw</code></pre> (Raw data format)</li></ul></li></ol></td>
     </tr>
-    <tr>
+    <tr id="motor-settingsD" name="motor-settingsD">
       <td>Reset Rotation</td>
       <td><pre><code class="language-c++">motor.resetRotation();</code></pre></td>
       <td>Resets the motor's built-in encoder value to 0.</td>
       <td><pre><code class="language-c++">void</code></pre></td>
     </tr>
-    <tr>
+    <tr id="motor-settingsE" name="motor-settingsE">
       <td>Timeout</td>
       <td><pre><code class="language-c++">motor.setTimeout();</code></pre></td>
       <td>Sets the timeout for the motor if it does not reach its commanded position prior to the completion of the timeout. The motor will then stop.</td>
       <td><ol><li>Time (<pre><code class="language-c++">int32_t</code></pre>)</li><li><pre><code class="language-c++">timeUnits</code></pre> <ul><li><pre><code class="language-c++">timeUnits::sec</code></pre> (Seconds)</li><li><pre><code class="language-c++">timeUnits::msec</code></pre> (milliseconds)</li></ul></li></ol></td>
     </tr>
-    <tr>
+    <tr id="motor-settingsF" name="motor-settingsF">
       <td>Max Torque</td>
       <td><pre><code class="language-c++">motor.setMaxTorque();</code></pre></td>
       <td>Sets the max torque the motor is allowed to handle.</td>
@@ -396,55 +416,55 @@ You can get a motor's data to calciulate turns or detect if a motor has been dis
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr id="motor-dataA" name="motor-dataA">
       <td>Spinning</td>
       <td><pre><code class="language-c++">motor.isSpinning();</code></pre></td>
       <td><pre><code class="language-c++">void</code></pre></td>
       <td><pre><code class="language-c++">bool</code></pre></td>
     </tr>
-    <tr>
+    <tr id="motor-dataB" name="motor-dataB">
       <td>Direction</td>
       <td><pre><code class="language-c++">motor.direction();</code></pre></td>
       <td><pre><code class="language-c++">void</code></pre></td>
       <td><pre><code class="language-c++">[object Object]</code></pre>(<pre><code class="language-c++">directionType</code></pre>)<lo><li><pre><code class="language-c++">directionType::fwd</code></pre></li><li><pre><code class="language-c++">directionType::rev</code></pre></li></lo></td>
     </tr>
-    <tr>
+    <tr id="motor-dataC" name="motor-dataC">
       <td>Rotation</td>
       <td><pre><code class="language-c++">motor.rotation();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">rotationUnits</code></pre> <ul><li><pre><code class="language-c++">rotationUnits::deg</code></pre> (Degrees)</li><li><pre><code class="language-c++">rotationUnits::rev</code></pre> (Revolutions)</li><li><pre><code class="language-c++">rotationUnits::raw</code></pre> (Raw data format)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-    <tr>
+    <tr id="motor-dataD" name="motor-dataD">
       <td>Velocity</td>
       <td><pre><code class="language-c++">motor.velocity();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">velocityUnits</code></pre> <ul><li><pre><code class="language-c++">velocityUnits::pct</code></pre> (Percentage)</li><li><pre><code class="language-c++">velocityUnits::rpm</code></pre> (Rotations per minute)</li><li><pre><code class="language-c++">velocityUnits::dps</code></pre> (Degrees per second)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-     <tr>
+     <tr id="motor-dataE" name="motor-dataE">
       <td>Current</td>
       <td><pre><code class="language-c++">motor.current();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">currentUnits</code></pre> <ul><li><pre><code class="language-c++">currentUnits::amp</code></pre> (Ampere)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-     <tr>
+    <tr id="motor-dataF" name="motor-dataF">
       <td>Power</td>
       <td><pre><code class="language-c++">motor.power();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">powerUnits</code></pre> <ul><li><pre><code class="language-c++">powerUnits::watt</code></pre> (Watts)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-    <tr>
+    <tr id="motor-dataG" name="motor-dataG">
       <td>Torque</td>
       <td><pre><code class="language-c++">motor.torque();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">torqueUnits</code></pre> <ul><li><pre><code class="language-c++">torqueUnits::Nm</code></pre> (Newton Meters)</li><li><pre><code class="language-c++">torqueUnits::InLb</code></pre> (Inch Pounds)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-    <tr>
+    <tr id="motor-dataH" name="motor-dataH">
       <td>Efficiency</td>
       <td><pre><code class="language-c++">motor.efficiency();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">percentUnits</code></pre> <ul><li><pre><code class="language-c++">percentUnits::pct</code></pre> (Percentage)</li></ul></li></ol></td>
       <td><pre><code class="language-c++">double</code></pre></td>
     </tr>
-     <tr>
+     <tr id="motor-dataI" name="motor-dataI">
       <td>Temperature</td>
       <td><pre><code class="language-c++">motor.temperature();</code></pre></td>
       <td><ol><li><pre><code class="language-c++">percentUnits</code></pre> <ul><li><pre><code class="language-c++">percentUnits::pct</code></pre> (Percentage)</li></ul></li></ol></td>
