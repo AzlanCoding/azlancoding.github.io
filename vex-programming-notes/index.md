@@ -14,7 +14,22 @@
 6. [Printing](#printing)<br>
 > 1. [Brain](#printingA)<br>
 > 2. [Controller](#printingB)<br>
-7. [Set Cursor](#set-cursor)
+7. [Set Cursor](#set-cursor)<br>
+> 1. [Brain](#set-cursorA)<br>
+> 2. [Controller](#set-cursorB)<br>
+8. [New Line](#new-line)<br>
+> 1. [Brain](#new-lineA)<br>
+> 2. [Controller](#new-lineB)<br>
+9. [Clear Line](#clear-line)<br>
+> 1. [Brain](#clear-lineA)<br>
+> 2. [Controller](#clear-lineB)<br>
+10. [New Line](#clear-screen)<br>
+> 1. [Brain](#clear-screenA)<br>
+> 2. [Controller](#clear-screenB)<br>
+11. [Controller Input](#controller-input)<br>
+> 1. [Axis](#controller-inputA)<br>
+> 2. [Button](#controller-inputB)<br>
+12. [Controller Vibration](#controller-vibration)
 
 
 <h2 id="initiating-motors" name="initiating-motors">Initiating Motors</h2>
@@ -203,7 +218,7 @@ H.Screen.print("H Controller");
 Brain.Screen.newLine();
 H.Screen.print("Controller Ready");
 ```
-<h2 id="clear-line" name="clear-line">clear Line</h2>
+<h2 id="clear-line" name="clear-line">Clear Line</h2>
 Clears the line/row the cursor is currently on.<br><br>
 Both functions below don't take in arguments.
 <h3 id="clear-lineA" name="clear-lineA">Brain</h3>
@@ -248,7 +263,7 @@ There are 2 main types of inputs:<br>
 1. Axis (joystick)
 2. Button
 <br>
-<h3 id="axis" name="axis">Axis</h3>
+<h3 id="controller-inputA" name="controller-inputA">Axis</h3>
 In each controller there are 4 axis (2 joysticks). The axis range from -128 to 128. to get this value, call one the following functions based on the axis you want:
 ```c++
 controller.axis1.value();
@@ -256,7 +271,7 @@ controller.axis2.value();
 controller.axis3.value();
 controller.axis4.value();
 ```
-<h3 id="button" name="button">Button</h3>
+<h3 id="controller-inputB" name="controller-inputB">Button</h3>
 In each controller there are 12 buttons (not including power button and hidden reset button):
 1. ButtonR1
 2. ButtonR2
@@ -287,7 +302,7 @@ controller.ButtonB.pressing();
 controller.ButtonX.pressing();
 controller.buttonY.pressing();
 ```
-<h2 id="controller-vibrate" name="controller-vibrate">Controller Vibration</h2>
+<h2 id="controller-vibration" name="controller-vibration">Controller Vibration</h2>
 Controller vibration allows you to get the attention of the controller if something happened or went wrong such as motor port disconnection. You can do so using the following function:
 ```c++
 controller.rumble('-.-');
