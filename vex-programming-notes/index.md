@@ -311,18 +311,18 @@ In each controller there are 12 buttons (not including power button and hidden r
 
 Based on the button that you want, you can call the following function which will return a bool (true or false):
 ```c++
-controller.buttonR1.pressing();
-controller.buttonR2.pressing();
+controller.ButtonR1.pressing();
+controller.ButtonR2.pressing();
 controller.ButtonL1.pressing();
-controller.buttonL2.pressing();
+controller.ButtonL2.pressing();
 controller.ButtonUp.pressing();
 controller.ButtonDown.pressing();
 controller.ButtonLeft.pressing();
 controller.ButtonRight.pressing();
-controller.buttonA.pressing();
+controller.ButtonA.pressing();
 controller.ButtonB.pressing();
 controller.ButtonX.pressing();
-controller.buttonY.pressing();
+controller.ButtonY.pressing();
 ```
 <h2 id="controller-vibration" name="controller-vibration">Controller Vibration</h2>
 Controller vibration allows you to get the attention of the controller if something happened or went wrong such as motor port disconnection. You can do so using the following function:
