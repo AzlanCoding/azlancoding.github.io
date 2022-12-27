@@ -288,10 +288,10 @@ There are 2 main types of inputs:<br>
 <h3 id="controller-inputA" name="controller-inputA">Axis</h3>
 In each controller there are 4 axis (2 joysticks). The axis range from -128 to 128. to get this value, call one the following functions based on the axis you want:
 ```c++
-controller.axis1.value();
-controller.axis2.value();
-controller.axis3.value();
-controller.axis4.value();
+controller.Axis1.value();
+controller.Axis2.value();
+controller.Axis3.value();
+controller.Axis4.value();
 ```
 <h3 id="controller-inputB" name="controller-inputB">Button</h3>
 In each controller there are 12 buttons (not including power button and hidden reset button):
