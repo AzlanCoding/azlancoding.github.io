@@ -9,7 +9,7 @@
 1. [Initiating Motors](#initiating-motors) <br>
 2. [Initiating Controllers](#initiating-controllers)<br>
 3. [Spinning Motors](#spinning-motors)<br>
-4. [Stopping Motors](#stoping-motors)<br>
+4. [Stopping Motors](#stopping-motors)<br>
 5. [Wait](#wait)<br>
 6. [Printing](#printing)<br>
 > 1. [Brain](#printingA)<br>
@@ -129,7 +129,7 @@ In the `motor.spin()` function there are 3 arguments.
 1. In the second arguement, Speed, if number exceeds the maximum capability of the motor (E.g. 110%), it will only go at the maximum speed (E.g, 100%).
 2. Add `controlername1.axis1.value()` in the second arguement, Speed, if you want the motor to spin according to the movement of the joystick on the controller. `axis1` being the axis you want to control with the motor and `controlername1` being the name of the controller you initialised it with.
 <br>
-<h2 id="stoping-motors" name="stoping-motors">Stoping Motors</h2>
+<h2 id="stopping-motors" name="stopping-motors">Stopping Motors</h2>
 If your motor spins indefinitely due to functions like `motor.spin(directionType::fwd)`, you will eventually need the motor to stop. You can do so like this:
 ```c++
 motor.stop();
