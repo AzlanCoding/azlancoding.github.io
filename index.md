@@ -15,7 +15,8 @@ The notes cover the following:<br>
 ### [iframe browser](iframe-browser-pwa)
 This is a browser that runs within a website. 
 It needs an extension that will be prompted to install on first visit. 
-The goal of this website is to bypass Mobile Guardian as it does not use a proxy. 
+This website is for **research purposes** to demonstrate the iframe vulnerability in Mobile Guardian. 
+It has been password protected to prevent misuse.
 However, not all websites can work. 
 Reddit for example will display here for a few seconds.<br />
 **Websites that don't work:**
@@ -29,8 +30,7 @@ Not all websites are listed here<br>
 To vist them in the iframe browser, you need to find the correct link and have the correct settings. <br>
 Please contact me if you need help.<br>
 The installation guide can be found [here](https://azlancoding.github.io/iframe-browser/InstallGuide). <br>
-The website is password protected on certain timings during weekdays as my class uses it during lessons to play games.<br>
-Passwords can be obtained upon request as long as AzlanCoding agrees to give it to you.<br>
+Passwords can be obtained upon request. Please use the gmail button below<br>
 **For a better interface, it is reccomended to enable the `Desktop PWA tab strip` in `chrome://flags/#enable-desktop-pwas-tab-strip` <br>
 
 <br>
@@ -39,9 +39,9 @@ Passwords can be obtained upon request as long as AzlanCoding agrees to give it 
 Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the required extension for iframe-browser-pwa) <br>
 **ATTENTION:**<br>
 **After 28 November 2022, all of my heroku servers will shut down as Heroku will [discontinue all free Dynos](https://blog.heroku.com/next-chapter).<br> [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) will also no longer work**<br>
-Three servers are avaliable:
-1. [United States](https://online-browser-us.herokuapp.com/)
-2. [Europe](https://online-browser-eur.herokuapp.com/)
+Servers are avaliable:
+<del>1. [United States](https://online-browser-us.herokuapp.com/)</del>
+<del>2. [Europe](https://online-browser-eur.herokuapp.com/)</del>
 3. [Replit(US)](https://online-browser.azlancoding.repl.co/) (Beta server. New functions are tested here before released)<br>
 
 This project is originally by [S1monlol/pillow](https://github.com/S1monlol/pillow) <br>
