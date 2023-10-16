@@ -1,15 +1,44 @@
+<select id="audioSource">
+  <option value="noSelect" onchange="enableStart(this)" disabled selected>Select Microphone to use</option>
+</select>
+<button onclick="start()" id="startBtn" disabled>Start</button>
 <script>
-  //taken from https://stackoverflow.com/questions/71539269/play-realtime-audio-from-mic-to-speaker-in-javascript
-  if (navigator.mediaDevices) {
-    const constraints = window.constraints = {
-      audio: true, 
-      video: false
+  navigator.mediaDevices.enumerateDevices()
+  .then(function(devices) {
+    var audioInputSelect = document.querySelector('select#audioSource');
+    devices.forEach(function(device) {
+      if (device.kind === 'audioinput') {
+        var option = document.createElement('option');
+        option.value = device.deviceId;
+        option.text = device.label || 'microphone ' + (audioInputSelect.length + 1);
+        audioInputSelect.appendChild(option);
+      }
+    });
+  })
+  .catch(function(err) {
+    console.log(err.name + ": " + err.message);
+  });
+  function enableStart(selectObject){
+    if (selectObject.innerHTML == "noSelect"){
+      document.querySelector('button#startBtn').disabled = true;
     }
-    navigator.mediaDevices.getUserMedia(constraints)
-    .then( stm => {
-      handleSuccess(stm);
+    else{
+      document.querySelector('button#startBtn').disabled = false;
     }
-    ).catch(handleError);
+  }
+  function start() {
+    //taken from https://stackoverflow.com/questions/71539269/play-realtime-audio-from-mic-to-speaker-in-javascript
+    if (navigator.mediaDevices) {
+      const constraints = window.constraints = {
+        audio: true, 
+        video: false
+      }
+      navigator.mediaDevices.getUserMedia(constraints)
+      .then( stm => {
+        handleSuccess(stm);
+      }
+      ).catch(handleError);
+    }
   }
   
 function handleSuccess(stream) {
