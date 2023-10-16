@@ -1,0 +1,36 @@
+<script>
+  //taken from https://stackoverflow.com/questions/71539269/play-realtime-audio-from-mic-to-speaker-in-javascript
+  if (navigator.mediaDevices) {
+    const constraints = window.constraints = {
+      audio: true, 
+      video: false
+    }
+    navigator.mediaDevices.getUserMedia(constraints)
+    .then( stm => {
+      handleSuccess(stm);
+    }
+    ).catch(handleError);
+  }
+  
+function handleSuccess(stream) {
+  if (window.stream) {
+    window.stream.getAudioTracks().forEach(track => track.stop());
+    window.stream = null;
+  } else {
+    const audio = document.createElement('audio');
+    audio.controls = true;
+    audio.autoplay = true;
+    window.stream = stream;
+    audio.srcObject = stream;
+
+    stream.oninactive = function() {
+      console.log('Stream ended');
+    };
+  }
+}
+
+function handleError(e){
+  console.log("Alert", e.message);
+  //alert('Error: ' + e.message);
+}
+</script>
