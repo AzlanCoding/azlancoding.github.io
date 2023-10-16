@@ -25,14 +25,14 @@
     //taken from https://stackoverflow.com/questions/71539269/play-realtime-audio-from-mic-to-speaker-in-javascript
     if (navigator.mediaDevices) {
       const constraints = window.constraints = {
-        audio: {echoCancellation: false, googEchoCancellation: false, googAutoGainControl: false, googNoiseSuppression: false,  deviceId: audioSource ? {exact: id} : undefined}, 
+        audio: {echoCancellation: false, googEchoCancellation: false, googAutoGainControl: false, googNoiseSuppression: false, deviceId: id ? {exact: id} : undefined}, 
         video: false,
       }
       navigator.mediaDevices.getUserMedia(constraints)
       .then( stm => {
         handleSuccess(stm);
       }
-      ).catch(handleError);
+      )//.catch(handleError);
     }
   }
   
