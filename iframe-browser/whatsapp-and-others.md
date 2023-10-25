@@ -8,5 +8,4 @@ This method works for __WhatsApp Web__ but fails to work in __Reddit__.<br>
 5. Reload the iframe-browser-pwa page and enjoy!
 
 **NOTE:**<br>
-WhatsApp Web is starting to fail in iframe browser. For those who use Kami PDF Editor Chrome Extension, create a shortcut in your Chrome Home Page Tab and select open with Kami. (For those trying to access whatsapp web but has it blocked by Mobile Guardian Only)
-![image](https://user-images.githubusercontent.com/101229146/226599105-7d50cef1-84f2-48c9-97b1-3cbb551311ad.png)
+WhatsApp Web may fail in iframe browser. If so, sign out by clearing the cookies for web.whatsapp.com in chrome settings, then sign in again.
