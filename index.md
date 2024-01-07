@@ -56,7 +56,7 @@ It also attempts to hide page title and and favicon so that it doesn't appear in
 
 <br>
 
-<del>
+<!---
 ### Virtual Browser Beta **(EXPERIMENTAL)**
 Made to bypass any system as it uses a virtual machine to run chrome thanks [Replit: The collaborative browser based IDE](https://replit.com/). <br>
 As of now, only 1 sever is avaliable:
@@ -67,4 +67,4 @@ If you would like to use it without an account, use the [original virtual browse
 Terms and Conditions for the Browser can be found [here](virtual-browser-beta/TermsAndConditions)<br>
 For any account modification or deletion, please contact me using the Gmail button at the bottom of the page.<br>
 Take note that your password is encrypted but exposed to public, making it insecure. The data could be accessed by anyone who forks the code and modifies it.<br>
-</del>
+-->
