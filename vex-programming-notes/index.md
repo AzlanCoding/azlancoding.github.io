@@ -56,7 +56,7 @@
 
 Motors are initiated in the following format:
 ``` c++
-motor motorname = motor(PORT1, gearsetting::ratio18_1,false);
+motor motorname = motor(PORT1, gearSetting::ratio18_1,false);
 ```
 In the `motor()` function there are 3 arguments.
 1. port number
