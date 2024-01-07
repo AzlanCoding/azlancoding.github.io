@@ -13,14 +13,14 @@ The notes cover the following:<br>
 <br>
 
 ### [iframe browser](iframe-browser-pwa)
-This is a browser that runs within a website. 
+This is a browser that runs within a website through an iframe. 
 It needs an extension that will be prompted to install on first visit. 
 This website is for **research purposes** to demonstrate the iframe vulnerability in Mobile Guardian. 
 It has been password protected to prevent misuse.
 However, not all websites can work. 
 Reddit for example will display here for a few seconds.<br />
 **Websites that don't work:**
- - Spotify Web Player
+ - Stack Overflow
  - Reddit<br><br>
 
 **Websites that [require further action](/iframe-browser/whatsapp-and-others):**
@@ -30,6 +30,7 @@ Not all websites are listed here<br>
 To vist them in the iframe browser, you need to find the correct link and have the correct settings. <br>
 Please contact me if you need help.<br>
 The installation guide can be found [here](https://azlancoding.github.io/iframe-browser/InstallGuide). <br>
+The source code can be found [here](https://github.com/AzlanCoding/iframe-browser-pwa). <br>
 Passwords can be obtained upon request. Please use the gmail button below<br>
 **For a better interface, it is reccomended to enable the `Desktop PWA tab strip` in `chrome://flags/#enable-desktop-pwas-tab-strip` <br>
 
@@ -52,10 +53,10 @@ It uses an iframe to connect to the two servers.<br>
 The website itself is hosted by github. <br>
 It also attempts to hide page title and and favicon so that it doesn't appear in your history! <br>
 **For a better interface, it is reccomended to enable the [Desktop PWA tab strip](chrome://flags/#enable-desktop-pwas-tab-strip) in "chrome://flags/#enable-desktop-pwas-tab-strip" for the online-browser-pwa** <br>
-Note: The Android and iPad issues have been resolved. If you are still having issues, PLEASE contact me from that google button below.
 
 <br>
 
+<del>
 ### Virtual Browser Beta **(EXPERIMENTAL)**
 Made to bypass any system as it uses a virtual machine to run chrome thanks [Replit: The collaborative browser based IDE](https://replit.com/). <br>
 As of now, only 1 sever is avaliable:
@@ -66,3 +67,4 @@ If you would like to use it without an account, use the [original virtual browse
 Terms and Conditions for the Browser can be found [here](virtual-browser-beta/TermsAndConditions)<br>
 For any account modification or deletion, please contact me using the Gmail button at the bottom of the page.<br>
 Take note that your password is encrypted but exposed to public, making it insecure. The data could be accessed by anyone who forks the code and modifies it.<br>
+</del>
