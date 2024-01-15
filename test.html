@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider2 {
+  position: absolute;
+  bottom: 15em;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-appearance: none;
+  width: 30%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider2:hover {
+  opacity: 1;
+}
+
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider2::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+.robot{
+  text-align: center;
+  font-size: 50px;
+}
+</style>
+</head>
+<body>
+
+<h1>Heading Corrector</h1>
+<p>Drag the slider to change the heading of the bot.</p>
+
+<div class="slidecontainer">
+  <input type="range" min="-360" max="360" value="0" class="slider" id="myRange">
+  <input type="range" min="-100" max="100" value="100" class="slider2" id="left" style="left: 10%">
+  <input type="range" min="-100" max="100" value="100" class="slider2" id="right" style="right: 10%">
+  <p>Actual Heading: <span id="demo2"></span></p>
+  <p><pre style="display:inline">head</pre> Variable: <span id="demo"></span></p>
+  <p>Left Wheel Speed: <span id="leftSpeed">100</span></p>
+  <p>Right Wheel Speed: <span id="rightSpeed">100</span></p>
+  <div class="robot" id="robot">⬆️</div>
+</div>
+
+<script>
+function sin(x){
+  return Math.sin(x * (Math.PI / 180));
+}
+var head = document.getElementById("myRange").value;
+var output = document.getElementById("demo");
+var output2 = document.getElementById("demo2");
+var robot = document.getElementById("robot");
+var left = document.getElementById("left");
+var right = document.getElementById("right");
+var leftSpeed = document.getElementById("leftSpeed");
+var rightSpeed = document.getElementById("rightSpeed");
+var speed = 100;
+output.innerHTML = head;
+
+document.getElementById("myRange").oninput = function() {
+  var head = document.getElementById("myRange").value;
+  output2.innerHTML = head;
+  robot.style.webkitTransform = 'rotate(' + head + 'deg)';
+  if (head%180 == 0){
+    head = 0;
+  }
+  else if (head > 180){
+    head = head%180 - 180;
+  }
+  else if (head < -180){
+    head = head%-180 + 180;
+  }
+  if (head > 90){
+    head = 90;
+  }
+  else if (head < -90){
+    head = -90;
+  }
+  output.innerHTML = head;
+  if (head >= 0){
+    rightSpeed.innerHTML = speed;
+    right.value = speed;
+    leftSpeed.innerHTML = (1-(sin(head)*2))*speed;
+    left.value = (1-(sin(head)*2))*speed;
+  }
+  else if (head < 0){
+    leftSpeed.innerHTML = speed;
+    left.value = speed;
+    rightSpeed.innerHTML = (1-(sin(head)*-2))*speed;
+    right.value = (1-(sin(head)*-2))*speed;
+  }
+}
+</script>
+
+</body>
+</html>
