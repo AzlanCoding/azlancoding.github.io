@@ -12,8 +12,22 @@ The notes cover the following:<br>
 
 <br>
 
+### Renpy3D (UPLOAD PENDING)
+**THIS PROJECT IS STILL IN DEVELOPMENT**<br>
+Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process using interprocess communication (you will understand what I mean if you look at the code).
+
+
+### [Facial Beauty Rating Software](https://github.com/AzlanCoding/Beauty-Rating-Software)
+This project was a practice for Additional Mathematics Math Modeling in Secondary 3. 
+It makes use of the golden ratio to compare with measurements on the face using detected keypoints that can be manually calibrated.
+More information on the project can be found in [README.md](https://github.com/AzlanCoding/Beauty-Rating-Software#beauty-rating-software)
+
+
 ### [iframe browser](iframe-browser-pwa)
-This is a browser that runs within a website through an iframe. 
+This project demonstarates a vulnerability in Mobile Guardian. 
+Hopefully they will fall upon this project and fix the vulnerability.
+A full report of the vulnerability can be found [here](https://github.com/AzlanCoding/iframe-browser-pwa/raw/main/IFRAME%20EXPLOIT.docx)<br><br>
+This is a browser that runs within a website using an iframe. 
 It needs an extension that will be prompted to install on first visit. 
 This website is for **research purposes** to demonstrate the iframe vulnerability in Mobile Guardian. 
 It has been password protected to prevent misuse.
@@ -36,6 +50,7 @@ Passwords can be obtained upon request. Please use the gmail button below<br>
 
 <br>
 
+<!--
 ### Online Browser
 Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the required extension for iframe-browser-pwa) <br>
 **ATTENTION:**<br>
@@ -56,7 +71,6 @@ It also attempts to hide page title and and favicon so that it doesn't appear in
 
 <br>
 
-<!---
 ### Virtual Browser Beta **(EXPERIMENTAL)**
 Made to bypass any system as it uses a virtual machine to run chrome thanks [Replit: The collaborative browser based IDE](https://replit.com/). <br>
 As of now, only 1 sever is avaliable:
