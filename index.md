@@ -2,13 +2,20 @@
 # Hello there!
 Welcome to [azlancoding.github.io](https://azlancoding.github.io)
 The homepage for **AzlanCoding** user
-## Quicklinks
+## Projects
 ### [Vex Robotics notes](vex-programming-notes)
 The link above is my notes for people to see.<br>
 You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.
 The notes cover the following:<br>
 - [Initiating Motors](/vex-programming-notes#initiating-motors) <br>
 - [Initiating Controllers](/vex-programming-notes#initiating-controllers)
+
+<br>
+
+### [Vex Robotics Code Archive](https://github.com/AzlanCoding/code-for-vex)
+This repository contains an archive of all of the code I've written for my Robotics Club for competitions and research. It features more than 15 drafts of code for [Spin Up](https://www.youtube.com/embed/wIZgvVDZc2Y) and attempted odometry for [Over Under](https://www.youtube.com/embed/dvDqEI7qO34).<br>
+
+*Odometry is the use of data from encoders/rotation sensors or motion sensors to estimate the change in position over time, it is often used in robotics to determine a robot’s position relative to a known starting location.
 
 <br>
 
