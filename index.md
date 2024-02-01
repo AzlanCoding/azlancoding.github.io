@@ -10,28 +10,26 @@ The notes cover the following:<br>
 - [Initiating Motors](/vex-programming-notes#initiating-motors) <br>
 - [Initiating Controllers](/vex-programming-notes#initiating-controllers)
 
-<br>
+<br><br>
 
 ### [Vex Robotics Code Archive](https://github.com/AzlanCoding/code-for-vex)
 This repository contains an archive of all of the code I've written for my Robotics Club for competitions and research. It features more than 15 drafts of code for [Spin Up](https://www.youtube.com/embed/wIZgvVDZc2Y) and attempted odometry for [Over Under](https://www.youtube.com/embed/dvDqEI7qO34).<br>
-
 *Odometry is the use of data from encoders/rotation sensors or motion sensors to estimate the change in position over time, it is often used in robotics to determine a robot’s position relative to a known starting location.
 
-<br>
+<br><br>
 
 ### Renpy3D (UPLOAD PENDING)
 **THIS PROJECT IS STILL IN DEVELOPMENT**<br>
 Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process using interprocess communication (you will understand what I mean if you look at the code).
 
-<br>
-
+<br><br>
 
 ### [Facial Beauty Rating Software](https://github.com/AzlanCoding/Beauty-Rating-Software)
 This project was a practice for Additional Mathematics Math Modeling in Secondary 3. 
 It makes use of the golden ratio to compare with measurements on the face using detected keypoints that can be manually calibrated.
 More information on the project can be found in [README.md](https://github.com/AzlanCoding/Beauty-Rating-Software#beauty-rating-software)
 
-<br>
+<br><br>
 
 ### [iframe browser](iframe-browser-pwa)
 This project demonstarates a vulnerability in Mobile Guardian. 
