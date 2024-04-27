@@ -6,9 +6,9 @@ The homepage for **AzlanCoding** user
 ### [Vex Robotics notes](vex-programming-notes)
 The link above is my notes for people to see.<br>
 You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.
-The notes cover the following:<br>
+<!--The notes cover the following:<br>
 - [Initiating Motors](/vex-programming-notes#initiating-motors) <br>
-- [Initiating Controllers](/vex-programming-notes#initiating-controllers)
+- [Initiating Controllers](/vex-programming-notes#initiating-controllers)-->
 
 <br><br>
 
@@ -18,9 +18,14 @@ This repository contains an archive of all of the code I've written for my Robot
 
 <br><br>
 
+### [ScreenShare](https://replit.com/@azlancoding/ScreenShare)
+Screenshare is a simple browser to browser screen sharing application between 2 devices. It was a prototype for the Integrated Classroom Hub (another prototype that has not been released to the public) to experiment with the possibility of using WebRTC to do screen casting. This project is referenced heavily from [j0r1's page](https://research.edm.uhasselt.be/jori/page/Main/HomePage.html). Please see the refrences in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md). The source code can be found [here](https://github.com/AzlanCoding/ScreenShare). Installation instructions can also be found in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md).
+
+<br><br>
+
 ### Renpy3D (UPLOAD PENDING)
 **THIS PROJECT IS STILL IN DEVELOPMENT**<br>
-Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process using interprocess communication (you will understand what I mean if you look at the code).
+Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process through interprocess communication using socket.
 
 <br><br>
 
@@ -50,7 +55,7 @@ Reddit for example will display here for a few seconds.<br />
 
 Not all websites are listed here<br>
 To vist them in the iframe browser, you need to find the correct link and have the correct settings. <br>
-Please contact me if you need help.<br>
+Do not hesitate to contact me if you require assistance.<br>
 The installation guide can be found [here](https://azlancoding.github.io/iframe-browser/InstallGuide). <br>
 The source code can be found [here](https://github.com/AzlanCoding/iframe-browser-pwa). <br>
 Passwords can be obtained upon request. Please use the gmail button below<br>
