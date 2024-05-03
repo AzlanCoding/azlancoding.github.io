@@ -157,6 +157,7 @@ h1 {
       
       <h3>Attempted to make new DMA</h3>
       <p>Both the students and the teachers got annoyed with various issues with my schools Device Management Application (DMA). Thus, during the June holidays, I was determined to make a new one that works better. I set off to learn socket programming, server-client connection, how to build a Python <code>Flask</code> Server (A web server), <code>PyQt</code> (a framework like Flutter to build Cross Platform Apps like VLC media player, Shotcut, Virtualbox and many more), proxy servers (for web filtering) and how <code>MITM</code> (Man In The Middle) attacks work (so that I can prevent the user from visiting a blocked site). There were just too many things to learn and it was very overwhelming for me at that time. I was not able to complete my goal in time but I learnt a lot of things along the way.</p>
+      <div class="divider"></div>
       
       <h3>Created my First Discord Bot</h3>
       <p>After getting a Discord account earlier that year, I was fascinated by the various bots available and wanted to make my own for my class's notes server. I programmed a simple bot to notify classmates when a new note was released and play music from youtube into a voice channel (which often failed as it depended on <code>yt-dl</code>).</p>
@@ -165,5 +166,6 @@ h1 {
       <h3>Learnt lots of other programming stuff</h3>
       <p>Apart from refining my C++ skills during the December holidays, I also explored other things like Emulation (Using RetroArch). I spent most of that holiday preparing a PowerPoint presentation to teach my juniors how to program C++ for VEX Robots. I also tried to make an Attendance Tracking System for my Robotics Club using QT to learn more about the framework so that I can use QT for the new DMA I wanted to make. However, I never completed it due to the lack of support, QT was just too complicated for me. Moreover, I repurposed my first discord bot for my new secondary 3 class. The new bot helps keep track of assignments that are yet to be due. Once they are due, they are automatically removed from the list. Through a command, I can also send this list to my class's WhatsApp group chat thanks to <a href="https://github.com/robvanderleek/mudslide">Mudslide</a>. Finally, I tried to compile and run OpenPose on my laptop. It didn't work because I did not have an NVIDIA GPU (Graphics Processing Unit). I wasted quite a bit of time installing <code>CUDA</code> and <code>PyTorch</code> libraries that were useless without the NVIDIA GPU. It was through this incident I learnt what a GPU is and the diffrence between an Integrated GPU and a Dedicated GPU.</p>
     </li>
+    
   </ul>
 </div>
