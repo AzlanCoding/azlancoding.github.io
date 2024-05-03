@@ -70,7 +70,7 @@ h1 {
   font-size: 1.4em;
 }
 .timeline .event {
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  border-bottom: 1px dashed #b5e853;
   padding-bottom: 25px;
   margin-bottom: 50px;
   position: relative;
@@ -109,6 +109,7 @@ h1 {
 .divider{
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 </style>
