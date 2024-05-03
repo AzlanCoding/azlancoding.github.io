@@ -106,6 +106,11 @@ h1 {
   top: 5px;
 }
 
+.divider{
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+
 </style>
 
 <div id="timeline-content">
