@@ -56,6 +56,7 @@ h1 {
   list-style: none;
   text-align: left;
   font-weight: 100;
+  margin-left: 120px;
 }
 .timeline h1 {
   letter-spacing: 1.5px;
@@ -92,7 +93,7 @@ h1 {
   text-align: right;
   font-weight: 100;
   font-size: 0.9em;
-  min-width: 120px;
+  width: 120px;
 }
 .timeline .event:after {
   box-shadow: 0 0 0 4px #b5e853;
