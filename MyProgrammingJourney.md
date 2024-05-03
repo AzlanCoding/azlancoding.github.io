@@ -1,7 +1,5 @@
 # My Programming Journey
-# My Programming Journey
 
-**Credits:** Original [CSS timeline](https://codepen.io/alanhouser/pen/aErrQJ) by Alan Houser
 <style>
   /* Import */
 /*@font-face {
@@ -271,6 +269,7 @@ h1 {
 
 <div id="timeline-content">
   <h1>My Programming Journey</h1>
+  <p>Original <a href="https://codepen.io/alanhouser/pen/aErrQJ">CSS Timeline</a> by Alan Houser</p>
 
   <ul class="timeline">
     <li class="event" data-date="Primary 5">
