@@ -94,6 +94,7 @@ h1 {
   font-weight: 100;
   font-size: 0.9em;
   width: 120px;
+  top: 0px;
 }
 .timeline .event:after {
   box-shadow: 0 0 0 4px #b5e853;
@@ -109,14 +110,13 @@ h1 {
 .divider{
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   margin-bottom: 25px;
-  margin-top: 25px;
 }
-
 </style>
 
+
 <div id="timeline-content">
-  <h1>My Programming Journey</h1>
-  <p>Original <a href="https://codepen.io/alanhouser/pen/aErrQJ">CSS Timeline</a> by Alan Houser</p>
+  <h1 id="title">My Programming Journey</h1>
+  <p id="credits">Original <a href="https://codepen.io/alanhouser/pen/aErrQJ">CSS Timeline</a> by Alan Houser<br>Modified and Animated by AzlanCoding</p>
 
   <ul class="timeline">
     <li class="event" data-date="2019">
@@ -156,7 +156,7 @@ h1 {
       <div class="divider"></div>
       
       <h3>Attempted to make new DMA</h3>
-      <p>Both the students and the teachers got annoyed with various issues with my schools Device Management Application (DMA). Thus, during the June holidays, I was determined to make a new one that works better. I set off to learn socket programming, server-client connection, how to build a Python <code>Flask</code> Server (A web server), <code>PyQt</code> (a framework like Flutter to build Cross Platform Apps like VLC media player, Shotcut, Virtualbox and many more), proxy servers (for web filtering) and how <code>MITM</code> (Man In The Middle) attacks work (so that I can prevent the user from visiting a blocked site). There were just too many things to learn and it was very overwhelming for me at that time. I was not able to complete my goal in time but I learnt a lot of things along the way.</p>
+      <p>Both the students and the teachers got annoyed with various issues with my schools Device Management Application (DMA). Thus, during the June holidays, I was determined to make a new one that works better. I set off to learn socket programming, server-client connection, how to build a Python <code>Flask</code> Server (A web server), <code>Qt</code> for python (a.k.a <code>PyQt</code>, a UI framework like Flutter to build Cross Platform Apps like VLC media player, Shotcut, Virtualbox and many more! Learn more about it <a href="https://www.qt.io/product">here</a>.), proxy servers (for web filtering) and how <code>MITM</code> (Man In The Middle) attacks work (so that I can prevent the user from visiting a blocked site). There were just too many things to learn and it was very overwhelming for me at that time. I was not able to complete my goal in time but I learnt a lot of things along the way.</p>
       <div class="divider"></div>
       
       <h3>Created my First Discord Bot</h3>
@@ -166,6 +166,78 @@ h1 {
       <h3>Learnt lots of other programming stuff</h3>
       <p>Apart from refining my C++ skills during the December holidays, I also explored other things like Emulation (Using RetroArch). I spent most of that holiday preparing a PowerPoint presentation to teach my juniors how to program C++ for VEX Robots. I also tried to make an Attendance Tracking System for my Robotics Club using QT to learn more about the framework so that I can use QT for the new DMA I wanted to make. However, I never completed it due to the lack of support, QT was just too complicated for me. Moreover, I repurposed my first discord bot for my new secondary 3 class. The new bot helps keep track of assignments that are yet to be due. Once they are due, they are automatically removed from the list. Through a command, I can also send this list to my class's WhatsApp group chat thanks to <a href="https://github.com/robvanderleek/mudslide">Mudslide</a>. Finally, I tried to compile and run OpenPose on my laptop. It didn't work because I did not have an NVIDIA GPU (Graphics Processing Unit). I wasted quite a bit of time installing <code>CUDA</code> and <code>PyTorch</code> libraries that were useless without the NVIDIA GPU. It was through this incident I learnt what a GPU is and the diffrence between an Integrated GPU and a Dedicated GPU.</p>
     </li>
-    
   </ul>
 </div>
+
+<script>
+  function setStyle(id, top, fontSize, bold, opacity){
+    return $("#event"+id+"style").html("#event"+id+"::before{top:"+top+"px;font-size:"+fontSize+"em;color: rgba(255, 255, 255, "+bold+");opacity:"+opacity+"}\n"+"#event"+id+"::after{top:"+((5*(fontSize-1+1.5))+top)+"px;opacity:"+opacity+"}\n");
+  }
+  
+  window.scrollTo(0, 0); //Reset Scroll
+  
+  $("#title").css('opacity',0);
+  $("#credits").css('opacity',0);
+  $('ul.timeline').css('opacity',0);
+  $("li.event").css('opacity',0);
+  $("li.event").each(function(i){
+    $(this).css('top',(1+i)*100);
+    $(this).attr('id','event'+i);
+    $(this).append('<style id="event'+i+'style"></style>');
+  });
+  $(document).ready(function(){
+    $("#title").animate({opacity:1}, 1000, function(){
+      $("#credits").animate({opacity:1}, 1000, function(){
+        $('ul.timeline').animate({opacity:1}, 1000);
+        $("li.event").each(function(i){
+          $(this).delay(i*200).animate({opacity:1,top:0}, 1500);
+        });
+      });
+    });
+  });
+  
+  $(document).on('scroll', function(){
+    $("li.event").each(function(i){
+      let clientRect = this.getBoundingClientRect()
+      
+      let x1 = clientRect.top; //Distance from top of view port to top of element
+      let x2 = (window.getComputedStyle(this, ':after').top.slice(0, -2)) / $(this).height(); //Percentage scroll of ::before and ::after
+      let x3 = clientRect.bottom; //Distance from top of view port to bottom of element
+      
+      if (x1 <= 250 && x1 >= 50){
+        y1 = 1+((1-((x1-50)/200))*1); //font-size
+        y2 = 0.4+((1-(x1/200))*0.6); //font-colour
+        y3 = 0; //top
+      }
+      else if (x1 > 250){
+        y1 = 1; //font-size
+        y2 = 0.4; //font-colour
+        y3 = 0; //top
+      }
+      else if (x1 < 50){
+        y1 = 2; //font-size
+        y2 = 1; //font-colour
+        if (x1 < 0) {
+          y3 = 50 + (x1*-1); //top
+        }
+        else{
+          y3 = 50-x1; //top
+        }
+      }
+      
+      if (x2 > 1){
+        y4 = ((1-((x2-1)/0.5))*1); //Opacity
+      }
+      else{
+        y4 = 1; //Opacity
+      }
+      
+      //Prevent Last element from escaping timeline
+      if ($("li.event").length == (i+1) && y3 > $(this).height()){
+        y3 = $(this).height();
+      }
+      
+      setStyle(i,y3,y1,y2,y4);
+    });
+  });
+</script>
