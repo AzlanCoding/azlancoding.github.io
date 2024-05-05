@@ -110,6 +110,7 @@ h1 {
 .divider{
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 </style>
 
