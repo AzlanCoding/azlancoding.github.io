@@ -170,8 +170,8 @@ h1 {
 </div>
 
 <script>
-  function setStyle(id, top, fontSize, bold, opacity){
-    return $("#event"+id+"style").html("#event"+id+"::before{top:"+top+"px;font-size:"+fontSize+"em;color: rgba(255, 255, 255, "+bold+");opacity:"+opacity+"}\n"+"#event"+id+"::after{top:"+((5*(fontSize-1+1.5))+top)+"px;opacity:"+opacity+"}\n");
+  function setStyle(id, top, fontSize, bold, opacity, opacity2){
+    return $("#event"+id+"style").html("#event"+id+"::before{top:"+top+"px;font-size:"+fontSize+"em;color: rgba(255, 255, 255, "+bold+");opacity:"+opacity+"}\n"+"#event"+id+"::after{top:"+((5*(fontSize-1+1.5))+top)+"px;opacity:"+opacity2+"}\n");
   }
   
   window.scrollTo(0, 0); //Reset Scroll
@@ -201,8 +201,6 @@ h1 {
       let clientRect = this.getBoundingClientRect()
       
       let x1 = clientRect.top; //Distance from top of view port to top of element
-      let x2 = (window.getComputedStyle(this, ':after').top.slice(0, -2)) / $(this).height(); //Percentage scroll of ::before and ::after
-      let x3 = clientRect.bottom; //Distance from top of view port to bottom of element
       
       if (x1 <= 250 && x1 >= 50){
         y1 = 1+((1-((x1-50)/200))*1); //font-size
@@ -225,19 +223,20 @@ h1 {
         }
       }
       
-      if (x2 > 1){
-        y4 = ((1-((x2-1)/0.5))*1); //Opacity
+      if (y3 > $(this).height()){
+        y4 = (1-((y3-$(this).height())/115)); //Opacity
       }
       else{
         y4 = 1; //Opacity
       }
       
-      //Prevent Last element from escaping timeline
-      if ($("li.event").length == (i+1) && y3 > $(this).height()){
+      //Prevent Last element from escaping timeline OR prevent events from deviating too far off
+      if (($("li.event").length == (i+1) && y3 > $(this).height()) || (y3 > $(this).height()+115)){
         y3 = $(this).height();
       }
       
-      setStyle(i,y3,y1,y2,y4);
+      
+      setStyle(i,y3,y1,y2,y4,y4+1);
     });
   });
 </script>
