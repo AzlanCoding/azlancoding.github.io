@@ -184,12 +184,13 @@ function scrollProgressBar() {
     progressBar.css({ width: getWidth() });
   };
 
-  $(document).on("scroll", setWidth);
-  $(window).on("resize", function () {
-    // Need to reset max
+  var updateProgressBar = function (){
     max = getMax();
     setWidth();
-  });
+  };
+  
+  $(document).on("scroll", updateProgressBar);
+  $(window).on("resize", updateProgressBar);
 }
 </script>
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
