@@ -196,6 +196,11 @@ h1 {
       <h3>Finished ICH (except transparent proxy) and created Bootable Ubuntu Drive</h3>
       <p>During the December holidays, I finished the development for the Integrated Classroom Hub prototype except the transparent proxy. It was ready for my class to use in the upcoming year. I also converted my Ubuntu LTS 22.04 Virtual Machine into a bootable thumbdrive that My laptop booted from. It made my workflow faster as I had been using ubuntu everyday for most of my homework and revision and using a bootable thumbdrive meant faster performance and less graphic rendering errors along with access to the NVIDIA GPU.</p>
     </li>
+    
+    <li class="event" data-date="2024">
+    <h3>Upgraded Ubuntu</h3>
+    <p>I wanted to install <a href="https://hyprland.org/">Hyprland</a>. So I tried to update my ubuntu 22.04 to 23.04 but i broke it along the way. I backed up my files by mounting a thumb drive through tty and transferring my files to that thumb drive. Then I started with a fresh new installation of Ubuntu 23.10 and used this <a href="https://github.com/JaKooLit/Debian-Hyprland">install script</a> to help me install hyprland. Because the script was for debian (at the time I used it), I needed to find all my missing dependencies from the install log. I've since successfully installed hyprland.</p>
+    </li>
   </ul>
 </div>
 
