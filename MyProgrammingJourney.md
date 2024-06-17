@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 # My Programming Journey
 
 <style>
@@ -679,6 +680,8 @@ function imageCarouselUpdateHeight(){
   });
   $(document).ready(function(){
     imageCarouselInit();
+    $(window).on('resize', imageCarouselUpdateHeight);
+    setTimeout(imageCarouselUpdateHeight,5000);//Just in case things mess up
     $("#title").animate({opacity:1}, 1000, function(){
       $("#credits").animate({opacity:1}, 1000, function(){
         $('ul.timeline').animate({opacity:1}, 1000);
@@ -733,4 +736,5 @@ function imageCarouselUpdateHeight(){
       setStyle(i,y3,y1,y2,y4,y4+1);
     });
   });
+
 </script>
