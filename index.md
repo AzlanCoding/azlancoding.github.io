@@ -3,50 +3,49 @@
 Welcome to [azlancoding.github.io](https://azlancoding.github.io)
 The blog/portfolio for **AzlanCoding** user<br>
 
-## Projects
-### [My Programming Journey](MyProgrammingJourney)
+## [My Programming Journey](MyProgrammingJourney)
 This page is here for my Early Admissions Exercise. I might keep this here as part of my blog.
 
 <br><br>
 
-### [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
+## [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
 Control your phone/emulator's media playback from your notification panel through MPRIS.<br>
 This script works independently from scrcpy and does not require it to be installed or running for use.
 
 <br><br>
 
-### [Vex Robotics notes](vex-programming-notes)
+## [Vex Robotics notes](vex-programming-notes)
 The link above is my notes for people to see.<br>
 You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.
-
+<br>
 <br><br>
 
 <br>
-### [Vex Robotics Code Archive](https://github.com/AzlanCoding/code-for-vex)
+## [Vex Robotics Code Archive](https://github.com/AzlanCoding/code-for-vex)
 This repository contains an archive of all of the code I've written for my Robotics Club for competitions and research. It features more than 15 drafts of code for [Spin Up](https://www.youtube.com/embed/wIZgvVDZc2Y) and attempted odometry for [Over Under](https://www.youtube.com/embed/dvDqEI7qO34).<br>
 *Odometry is the use of data from encoders/rotation sensors or motion sensors to estimate the change in position over time, it is often used in robotics to determine a robot’s position relative to a known starting location.
 
 <br><br>
 
-### [ScreenShare](https://replit.com/@azlancoding/ScreenShare)
+## [ScreenShare](https://replit.com/@azlancoding/ScreenShare)
 Screenshare is a simple browser to browser screen sharing application between 2 devices. It was a prototype for the Integrated Classroom Hub (another prototype that has not been released to the public) to experiment with the possibility of using WebRTC to do screen casting. This project is referenced heavily from [j0r1's page](https://research.edm.uhasselt.be/jori/page/Main/HomePage.html). Please see the refrences in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md). The source code can be found [here](https://github.com/AzlanCoding/ScreenShare). Installation instructions can also be found in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md).
 
 <br><br>
 
-### Renpy3D (UPLOAD PENDING)
+## Renpy3D (UPLOAD PENDING)
 **THIS PROJECT IS STILL IN DEVELOPMENT**<br>
 Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process through interprocess communication using socket.
 
 <br><br>
 
-### [Facial Beauty Rating Software](https://github.com/AzlanCoding/Beauty-Rating-Software)
+## [Facial Beauty Rating Software](https://github.com/AzlanCoding/Beauty-Rating-Software)
 This project was a practice for Additional Mathematics Math Modeling in Secondary 3. 
 It makes use of the golden ratio to compare with measurements on the face using detected keypoints that can be manually calibrated.
 More information on the project can be found in [README.md](https://github.com/AzlanCoding/Beauty-Rating-Software#beauty-rating-software)
 
 <br><br>
 
-### [iframe browser](iframe-browser-pwa)
+## [iframe browser](iframe-browser-pwa)
 This project demonstarates a vulnerability in Mobile Guardian. 
 Hopefully they will fall upon this project and fix the vulnerability.
 A full report of the vulnerability can be found [here](https://github.com/AzlanCoding/iframe-browser-pwa/raw/main/IFRAME%20EXPLOIT.docx)<br><br>
@@ -74,7 +73,7 @@ Passwords can be obtained upon request. Please use the gmail button below<br>
 <br>
 
 <!--
-### Online Browser
+## Online Browser
 Made to bypass Blocksi and Mobile Guardian on the iPad (Can't install the required extension for iframe-browser-pwa) <br>
 **ATTENTION:**<br>
 **After 28 November 2022, all of my heroku servers will shut down as Heroku will [discontinue all free Dynos](https://blog.heroku.com/next-chapter).<br> [online-browser-pwa](https://azlancoding.github.io/online-browser-pwa) will also no longer work**<br>
@@ -94,7 +93,7 @@ It also attempts to hide page title and and favicon so that it doesn't appear in
 
 <br>
 
-### Virtual Browser Beta **(EXPERIMENTAL)**
+## Virtual Browser Beta **(EXPERIMENTAL)**
 Made to bypass any system as it uses a virtual machine to run chrome thanks [Replit: The collaborative browser based IDE](https://replit.com/). <br>
 As of now, only 1 sever is avaliable:
 1. [Replit(US)](https://replit.com/@azlancoding/virtual-browser-beta?embed=true) <br>

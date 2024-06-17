@@ -328,8 +328,8 @@ h1 {
       <h3><strong>Won 2nd Team Placing in CoderZ Competition</strong></h3>
       <p>Nearing the end of the year, I participated in an online team competition for CoderZ Competition and won 2nd team placing.</p>
       <div class="image-carousel">
-        <img src="./programmingJourneyAssets/CoderZ0.png" data-desc="A photo of the slide showing my team won 2nd place during the prize resentation over Zoom. Their faces have been blurred out for their privacy."></img>
-        <img src="./programmingJourneyAssets/CoderZ1.png" data-desc="A scanned copy of the certificate I got"></img>
+        <img src="./programmingJourneyAssets/CoderZ0.png" data-desc="A photo of the slide showing my team won 2nd place during the prize resentation over Zoom. Their faces have been blurred out for their privacy.">
+        <img src="./programmingJourneyAssets/CoderZ1.png" data-desc="A scanned copy of the certificate I got">
       </div>
       <div class="divider"></div>
       
@@ -342,8 +342,8 @@ h1 {
       <p>As I got very vexed by the restrictions on my Chromebook controlled by Mobile Guardian, I started to look at Mobile Guardian's source code which was easy to access because it was a Chrome Extension. Through this, I discovered that Mobile Guardian did not check content in iframe elements, allowing blocked websites to be accessed through an Iframe. I thus set out to built my own website to test out this vulnerability. Soon I learnt restrictions like <code>X-Frame-Options</code> and <code>Content-Security-Policy</code> and how to get around them (through extensions). I developed the website into a Progressive Web App (for fun) and added the experimental tab strips for a more browser look. I also added full details of the exploit so that Mobile Guardian will hopefully find it and patch the vulnerability. You can find the exploit <a target="_blank" href="https://github.com/AzlanCoding/iframe-browser-pwa">here</a>.</p>
       <div class="image-carousel">
         <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/Screen%20recording%202022-06-30%2011.25.19.gif" data-desc="A screen recording of me using the iframe exploit to access a blocked website to demonstrate the exploit."></image>
-        <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/13.png" data-desc="A screenshot of the PWA install prompt working taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>."></img>
-        <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/2.png" data-desc="A screenshot of how to enable the experimental tab-strips feature that iframe-browser-pwa uses taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>."></img>
+        <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/13.png" data-desc="A screenshot of the PWA install prompt working taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>.">
+        <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/2.png" data-desc="A screenshot of how to enable the experimental tab-strips feature that iframe-browser-pwa uses taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>.">
         <!--img></img-->
       </div>
       <div class="divider"></div>
@@ -370,10 +370,10 @@ h1 {
       <p>After getting a Discord account earlier that year, I was fascinated by the various bots available and wanted to make my own for my class's notes server. I programmed a simple bot to notify classmates when a new note was released and play music from youtube into a voice channel (which often failed as it depended on <code>yt-dl</code>).</p>
       <p><strong>Note: </strong>The screenshots shown below were taken from a later date. The original name of the bot was <code>note-tifier-bot</code>.</p>
       <div class="image-carousel">
-        <img src="./programmingJourneyAssets/BOT0.png" data-desc="A screenshot of my bot alerting members when a user has uploaded a new note."></img>
-        <img src="./programmingJourneyAssets/BOT1.png" data-desc="A screenshot of the bot's log"></img>
-        <img src="./programmingJourneyAssets/BOT2.png" data-desc="A screenshot of the music functionality with Youtube Music Integration."></img>
-        <img src="./programmingJourneyAssets/BOT3.png" data-desc="Another screenshot of the music functionality with Youtube Music Integration."></img>
+        <img src="./programmingJourneyAssets/BOT0.png" data-desc="A screenshot of my bot alerting members when a user has uploaded a new note.">
+        <img src="./programmingJourneyAssets/BOT1.png" data-desc="A screenshot of the bot's log">
+        <img src="./programmingJourneyAssets/BOT2.png" data-desc="A screenshot of the music functionality with Youtube Music Integration.">
+        <img src="./programmingJourneyAssets/BOT3.png" data-desc="Another screenshot of the music functionality with Youtube Music Integration.">
       </div>
       <div class="divider"></div>
       
@@ -381,8 +381,8 @@ h1 {
       <p>Apart from refining my C++ skills during the December holidays, I also explored other things like Emulation (Using RetroArch). I spent most of that holiday preparing a PowerPoint presentation to teach my juniors how to program C++ for VEX Robots. I also tried to make an Attendance Tracking System for my Robotics Club using QT to learn more about the framework so that I can use QT for the new DMA I wanted to make. However, I never completed it due to the lack of support, QT was just too complicated for me. Moreover, I repurposed my first discord bot for my new secondary 3 class. The new bot helps keep track of assignments that are yet to be due. Once they are due, they are automatically removed from the list. Through a command, I can also send this list to my class's WhatsApp group chat thanks to <a target="_blank" href="https://github.com/robvanderleek/mudslide">Mudslide</a>. Finally, I tried to compile and run <a target="_blank" href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> (Motion Capture) on my laptop. It didn't work because I did not have an NVIDIA GPU (Graphics Processing Unit). I wasted quite a bit of time installing <code>CUDA</code> and <code>PyTorch</code> libraries that were useless without the NVIDIA GPU. It was through this incident I learnt what a GPU is and the diffrence between an Integrated GPU and a Dedicated GPU.</p> 
       <div class="image-carousel">
         <video src="./programmingJourneyAssets/PROG0.mp4" data-desc="Attendance Tracking System facial recognition test"></video>
-        <img src="./programmingJourneyAssets/PROG1.png" data-desc="Attendance Tracking System QML code for one of the screens"></img>
-        <img src="./programmingJourneyAssets/PROG2.png" data-desc="Attendance Tracking System UI Designing"></img>
+        <img src="./programmingJourneyAssets/PROG1.png" data-desc="Attendance Tracking System QML code for one of the screens">
+        <img src="./programmingJourneyAssets/PROG2.png" data-desc="Attendance Tracking System UI Designing">
         <video src="./programmingJourneyAssets/PROG3.mp4" data-desc="Attendance Tracking System test"></video>
       </div>
     </li>
@@ -395,8 +395,8 @@ h1 {
       <h3>Applied Python Skills to Math Modeling Projects</h3>
       <p>Using my knowledge on Python, I applied it to my Math Modeling Projects. The first one was a Beauty Rating Software. It determined which of my classmates were the most beautiful based on the golden ratio. You can find more about it <a href="https://github.com/AzlanCoding/Beauty-Rating-Software"  target="_blank">here</a> along with the code written for the project. The second one, which I did not upload as the sample data would contain most of my classmates faces, measured the angle in which the basketball was thrown at as well as create an quadratic equation to show the trajectory of the basket ball thrown, using a sample video. These projects gave me the chance to experiment with Artificial Intelligence using Python and allowed me to play around with various python packages such as <code>torchvision</code>, <code>matplotlib</code>, <code>numpy</code> and <code>opencv-contrib-python</code>. <br>*For the first project, when I was training the Facial Detection Model on my laptop, I was not aware that there was already a trained model (.pt file) in the project's repository.</p>
       <div class="image-carousel">
-        <img src="./programmingJourneyAssets/MATH0.gif" data-desc="My program output (Trackers)<br>I have obtained permission from the people in this video to put this GIF here."></img>
-        <img src="./programmingJourneyAssets/MATH1.gif" data-desc="My program output (Annotations)<br>I have obtained permission from the people in this video to put this GIF here."></img>
+        <img src="./programmingJourneyAssets/MATH0.gif" data-desc="My program output (Trackers)<br>I have obtained permission from the people in this video to put this GIF here.">
+        <img src="./programmingJourneyAssets/MATH1.gif" data-desc="My program output (Annotations)<br>I have obtained permission from the people in this video to put this GIF here.">
         <video src="./programmingJourneyAssets/MATH2.mp4" data-desc="A failed test run of my program when under testing. The final generated graph is upside down."></video>
         <video src="./programmingJourneyAssets/MATH3.mp4" data-desc="A test run of the software I wrote for face data collection. Many frames in the screen recording were dropped due to lack of CPU resources.<br>Take not that this is a screen recording of 2 displays side by side."></video>
       </div>
@@ -412,7 +412,7 @@ h1 {
       <h3>Explored Virtual Machines and Other Stuff</h3>
       <p>During the June Holidays, I got a new, powerful laptop that had 64GB of RAM, 2TB of SSD Storage, NVIDIA RTX 3050 6GB Laptop GPU and a 13th Gen i7 13700H Intel Processor. This gave me enough resources to explore virtual machines. I experimented with Ubuntu LTS 22.04, Kali Linux and Android 6 and 13 (Android 6 was excessively slow and Android 13 did not work). This allowed me to learn linux commands and how to operate the command line interfaces in both Windows and Linux. During this holiday, I also finished up work for ScreenShare. It was here I discovered that there was no <code>Web-RTC</code> support for iPad and that the School's Internal Firewall does not allow WebRTC functionality. I think it is due to the blockage of the <code>UDP</code> Protocol and device to device communication (local network server hosting?). Either way, I concluded that the only way for ScreenShare to work was if I set up my own WIFI in my classroom, which I did. I now introduce to you the Integrated Classroom Hub (ICH), an all in one classroom manager. <br>The ICH fixes multiple ICT problems in my classroom such as poor WIFI connection that constantly disconnects. Using a spare Singtel Mesh Router I had lying around in my house, the ICH auto log in to the school WIFI and start a hotspot which goes out through the ethernet port of my laptop to the Singtel Mesh Router. The ICH is also supposed to come with a better web filtering system but it was never completed before Secondary 4. The proposed web filtering system uses a transparent proxy to monitor and block every single outgoing request to the internet from the students. This is better as the school would only need to maintain the ICH in each classroom rather than doing software checks on every students' laptop every semester. The ICH also starts 2 Python <code>Flask</code> Servers. The first one running at port 80 handles shortcuts. When connected to the Wifi, if you type <code>igc/</code> in a chrome browser, it will redirect you to Google Classroom (*IGC stands for ICON Google Classroom). It does this by DNS Hijacking the domain <code>igc</code> which works despite not being a valid domain name. The second one running at port 443 is a website that manages reminders, important dates, homework and overdue homework for my class. The website also comes with various tools such as an image to text converter and WebRTC Screen Sharing to screen mirror (Cast) the students Chromebook to the ICH (Which is also connected to the projector. DNS Hijacking also meant that I could get any domain I wanted for the website, except that the website would only be accessible when connected to the ICH's WIFI. This also meant the ICH was to replace the current discord bot which kept going offline (cause my free bot hosting was not very reliable).</p>
       <div class="image-carousel">
-        <img src="./programmingJourneyAssets/VIRT0.png" data-desc="A screenshot of my virtual machines. I used to have Android 6 and Android 9 but removed them due to lack of usage."></img>
+        <img src="./programmingJourneyAssets/VIRT0.png" data-desc="A screenshot of my virtual machines. I used to have Android 6 and Android 9 but removed them due to lack of usage.">
         <video src="./programmingJourneyAssets/ICH0.mp4" data-desc="ScreenShare porting to the ICH"></video>
       </div>
       <div class="divider"></div>
@@ -421,7 +421,7 @@ h1 {
       <p>We played a friendly tournament with many other secondary schools at Anglo-Chinese School (Independent). This season's game can be found <a href="https://www.youtube.com/watch?v=dvDqEI7qO34" target="_blank">here</a>. My team won 3rd team placing, there was other 2 teams in my school that also managed to get 2nd Team Placing (They allianced each other while we allianced with Futrun Robotics Academy). It was an interesting experience especially since the teammates in out alliance were significantly younger than us. My research on <strong>Odemetry</strong> also paid off. Odometry is the use of data from encoders/rotation sensors or motion sensors to estimate the change in position over time, it is often used in robotics to determine a robot’s position relative to a known starting location. The calculation is very complex and I had to figure all of it out myself. It made our autonomous task more consistent as our bot will not be affected if it hits another bot or goes off target. You can check out the code in the <code>PROS</code> folder <a href="https://github.com/AzlanCoding/code-for-vex" target="_blank">here</a>. I learnt and used the PROS API on my own just for this competition and it definitely paid off.</p>
       <div class="image-carousel">
         <video src="./programmingJourneyAssets/ROBO0.mp4" data-desc="Odometry test run. The robot crashes into the walls but still gets exactly where its supposed to get to."></video>
-        <img src="./programmingJourneyAssets/ROBO1.jpg" data-desc="A picture of the trophies my school won this competition."></img>
+        <img src="./programmingJourneyAssets/ROBO1.jpg" data-desc="A picture of the trophies my school won this competition.">
       </div>
       <div class="divider"></div>
       
@@ -462,8 +462,8 @@ h1 {
     <div class="image-carousel">
       <!--img src="./programmingJourneyAssets/YCEP0.png" data-desc="Screenshot of ">
       <img src="./programmingJourneyAssets/YCEP1.png" data-desc="Screenshot of "-->
-      <img src="./programmingJourneyAssets/YCEP2.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image."></img>
-      <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of my profile<br>This image is very long, clicking on it may not allow you to see the entire image."></img>
+      <img src="./programmingJourneyAssets/YCEP2.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image.">
+      <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of my profile<br>This image is very long, clicking on it may not allow you to see the entire image.">
       <!--img src="./programmingJourneyAssets/YCEP4.png" data-desc="Screenshot of scrcpyMediaController in Hyprland"-->
     </div>
     </li>
@@ -556,7 +556,7 @@ function openModal(elm){
       $(this).remove();
     });
   if ($(elm).prop("tagName") == "IMG"){
-      $(".image-viewer").prepend("<img src='"+$(elm).prop("src")+"'></img>");
+      $(".image-viewer").prepend("<img src='"+$(elm).prop("src")+"'>");
       $(".image-viewer").find("p").html($(elm).attr("data-desc"));
   }
   else if ($(elm).prop("tagName") == "VIDEO"){
