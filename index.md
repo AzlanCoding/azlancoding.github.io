@@ -1,11 +1,18 @@
 # HomePage
 # Hello there!
 Welcome to [azlancoding.github.io](https://azlancoding.github.io)
-The blog/portfolio for **AzlanCoding** user
+The blog/portfolio for **AzlanCoding** user<br>
+
 ## Projects
+### [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
+Control your phone/emulator's media playback from your notification panel through MPRIS.<br>
+This script works independently from scrcpy and does not require it to be installed or running for use.
+
+<br><br>
+
 ### [Vex Robotics notes](vex-programming-notes)
 The link above is my notes for people to see.<br>
-You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.
+You may also visit [vex doccumentation](https://help.vexcodingstudio.com/#cpp) for referrence.<br>
 
 <br><br>
 
