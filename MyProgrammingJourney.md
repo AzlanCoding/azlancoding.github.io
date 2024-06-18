@@ -1,7 +1,47 @@
 # My Programming Journey
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
+<link rel="preload" href="./programmingJourneyAssets/CoderZ1.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/CoderZ1.png" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/Screen%20recording%202022-06-30%2011.25.19.gif" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/13.png" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/2.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/DMA0.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/DMA1.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/DMA2.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/DMA3.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/BOT0.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/BOT1.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/BOT2.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/BOT3.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/PROG0.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/PROG1.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/PROG2.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/PROG3.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/MATH0.gif" as="image">
+<link rel="preload" href="./programmingJourneyAssets/MATH1.gif" as="image">
+<link rel="preload" href="./programmingJourneyAssets/MATH2.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/MATH3.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/SS0.webm" as="video">
+<link rel="preload" href="./programmingJourneyAssets/VIRT0.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/ICH0.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/ROBO0.mp4" as="video">
+<link rel="preload" href="./programmingJourneyAssets/ROBO1.jpg" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr0.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr1.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr2.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr3.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr4.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/Hypr5.png" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-38-55_26599.png" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-58-03_1099.png" as="image">
+<link rel="preload" href="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_30-May_20-25-30_20743.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/SMC3.png" as="image">
+<!--link rel="preload" href="./programmingJourneyAssets/YCEP0.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/YCEP1.png" as="image"-->
+<link rel="preload" href="./programmingJourneyAssets/YCEP2.jpg" as="image">
+<link rel="preload" href="./programmingJourneyAssets/YCEP3.jpg" as="image">
+<!--link rel="preload" href="./programmingJourneyAssets/YCEP4.png" as="image"-->
 <style>
   /*Base*/
 /*body {
@@ -345,7 +385,6 @@ h1 {
         <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/Screen%20recording%202022-06-30%2011.25.19.gif" data-desc="A screen recording of me using the iframe exploit to access a blocked website to demonstrate the exploit."></image>
         <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/13.png" data-desc="A screenshot of the PWA install prompt working taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>.">
         <img src="https://raw.githubusercontent.com/AzlanCoding/azlancoding.github.io/main/iframe-browser/InstallGuidePhotos/2.png" data-desc="A screenshot of how to enable the experimental tab-strips feature that iframe-browser-pwa uses taken from the <a href='https://azlancoding.github.io/iframe-browser/InstallGuide' target='_blank'>install guide</a>.">
-        <!--img></img-->
       </div>
       <div class="divider"></div>
       
