@@ -504,7 +504,15 @@ h1 {
       <img src="./programmingJourneyAssets/YCEP1.png" data-desc="Screenshot of "-->
       <img src="./programmingJourneyAssets/YCEP2.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image.">
       <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of my profile<br>This image is very long, clicking on it may not allow you to see the entire image.">
-      <!--img src="./programmingJourneyAssets/YCEP4.png" data-desc="Screenshot of scrcpyMediaController in Hyprland"-->
+      <!--img src="./programmingJourneyAssets/YCEP4.png" data-desc="Screenshot of "-->
+    </div>
+    <div class="divider"></div>
+    
+    <h3><strong>Participated in YCEP Central Capture-The-Flag (CTF) 2024 and achieved 7th Team Placing</strong></h3>
+    <p style="margin-bottom: 2.5em;">I attended the Central Capture-The-Flag (CTF) competition at <a target="_blank" href="https://maps.app.goo.gl/enbFaPWSrcCZL8D89">Cisco Singapore</a></p>
+    <div class="image-carousel">
+      <img src="./programmingJourneyAssets/CCTF0.png" data-desc="My certificate of participation.">
+      <img src="./programmingJourneyAssets/CCTF1.jpg" data-desc="The medal and power bank that I won.">
     </div>
     </li>
   </ul>
