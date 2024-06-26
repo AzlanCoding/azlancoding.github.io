@@ -500,7 +500,7 @@ h1 {
     <h3><strong>Participated in Youth Cyber Exploration Program (YCEP) and achieved 11th Placing in class</strong></h3>
     <p style="margin-bottom: 2.5em;">I wanted to explore cybersecurity so I joined this free program. I learnt a lot of things and had a lot of fun. When the final Capture The Flag (CTF) competiion came on the third day, I achieved 11th placing. I learnt that in the future, if I am stuck at one challenge, I should give up and try another one first, otherwise I wold just be wasting time thinking. I have been invited to attend the central YCEP CTF competition and will definitely attend it on 22nd June 2024.</p>
     <div class="image-carousel">
-      <img src="./programmingJourneyAssets/YCEP0.png" data-desc="My certificate of participation.">
+      <img src="./programmingJourneyAssets/YCEP0.jpg" data-desc="My certificate of participation.">
       <!--img src="./programmingJourneyAssets/YCEP1.png" data-desc="Screenshot of ">
       <img src="./programmingJourneyAssets/YCEP2.png" data-desc="Screenshot of "-->
       <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image.">
