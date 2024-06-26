@@ -512,7 +512,7 @@ h1 {
     <p style="margin-bottom: 2.5em;">I attended the Central Capture-The-Flag (CTF) competition at <a target="_blank" href="https://maps.app.goo.gl/enbFaPWSrcCZL8D89">Cisco Singapore</a></p>
     <div class="image-carousel">
       <img src="./programmingJourneyAssets/CCTF0.png" data-desc="My certificate of participation.">
-      <img src="./programmingJourneyAssets/CCTF1.jpg" data-desc="The medal and power bank that I won.">
+      <img src="./programmingJourneyAssets/CCTF1.png" data-desc="The medal and power bank that I won.">
     </div>
     </li>
   </ul>
