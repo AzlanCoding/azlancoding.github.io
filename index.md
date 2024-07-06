@@ -4,13 +4,13 @@ Welcome to [azlancoding.github.io](https://azlancoding.github.io)
 The blog/portfolio for **AzlanCoding** user
 <br><br>
 
+## [My Programming Journey](MyProgrammingJourney)
+This page is here for my Early Admissions Exercise. I might keep this here as part of my blog.
+<br><br>
+
 ## [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
 Control your phone/emulator's media playback from your notification panel through MPRIS.<br>
 This script works independently from scrcpy and does not require it to be installed or running for use.
-<br><br>
-
-## [My Programming Journey](MyProgrammingJourney)
-This page is here for my Early Admissions Exercise. I might keep this here as part of my blog.
 <br><br>
 
 ## [Vex Robotics notes](vex-programming-notes)
