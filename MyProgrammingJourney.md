@@ -514,6 +514,7 @@ h1 {
     <div class="image-carousel">
       <img src="./programmingJourneyAssets/CCTF0.png" data-desc="The medal and power bank that I won.">
       <img src="./programmingJourneyAssets/CCTF1.png" data-desc="My certificate of participation.">
+      <img src="./programmingJourneyAssets/CCTF2.png" data-desc="My certificate of excellence.">
     </div>
     </li>
   </ul>
