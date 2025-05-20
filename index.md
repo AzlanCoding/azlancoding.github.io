@@ -1,7 +1,6 @@
 # HomePage
 # Hello there!
-Welcome to [azlancoding.github.io](https://azlancoding.github.io)
-The blog/portfolio for **AzlanCoding** user
+Welcome to my blog/portfolio! My name is Azlan. If you would like to get in touch with me, use the email button at the footer of this page!
 <br><br>
 
 ## [My Programming Journey](MyProgrammingJourney)
