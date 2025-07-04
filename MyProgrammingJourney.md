@@ -538,7 +538,7 @@ h1 {
       <div class="divider"></div>
 
       <h3>Participated in BuildingBloCS June Conference (AI Workshop)</h3>
-      <p>I've always been using python for full stack and everything else other than AI. So I decided to join this workshop to learn a little bit on how I can use python to train and use AI. I also tried to go for the Hackathon that was part of this workshop with some of my classmates. But because we were having exams and other events in the same week, we could not finish our project in time, and we just presented what we had to the judges.</p>
+      <p style="margin-bottom: 2.5em;">I've always been using python for full stack and everything else other than AI. So I decided to join this workshop to learn a little bit on how I can use python to train and use AI. I also tried to go for the Hackathon that was part of this workshop with some of my classmates. But because we were having exams and other events in the same week, we could not finish our project in time, and we just presented what we had to the judges.</p>
       <div class="image-carousel">
         <img src="./programmingJourneyAssets/BUILDINGBLOCS0.png" data-desc="My certificate of participation for the workshop.">
         <img src="./programmingJourneyAssets/BUILDINGBLOCS1.png" data-desc="My certificate of participation for the hackathon.">
