@@ -42,6 +42,8 @@
 <link rel="preload" href="./programmingJourneyAssets/YCEP2.jpg" as="image">
 <link rel="preload" href="./programmingJourneyAssets/YCEP3.jpg" as="image">
 <!--link rel="preload" href="./programmingJourneyAssets/YCEP4.png" as="image"-->
+<link rel="preload" href="./programmingJourneyAssets/BUILDINGBLOCS0.png" as="image">
+<link rel="preload" href="./programmingJourneyAssets/BUILDINGBLOCS1.png" as="image">
 <style>
   /*Base*/
 /*body {
@@ -471,51 +473,76 @@ h1 {
     </li>
     
     <li class="event" data-date="2024">
-    <h3>Upgraded Ubuntu</h3>
-    <p>I wanted to install <a target="_blank" href="https://hyprland.org/">Hyprland</a>. So I tried to update my ubuntu 22.04 to 23.10 but i broke it along the way. I backed up my files by mounting a thumb drive through tty and transferring my files to that thumb drive. Then I started with a fresh new installation of Ubuntu 23.10 and used this <a target="_blank" href="https://github.com/JaKooLit/Debian-Hyprland">install script</a> to help me install hyprland. Because the script was for debian (at the time I used it), I needed to find all my missing dependencies from the install log. I've since successfully installed hyprland.</p>
-    <div class="image-carousel">
-      <img src="./programmingJourneyAssets/Hypr0.png" data-desc="Orginal Ubuntu LTS 22.04">
-      <img src="./programmingJourneyAssets/Hypr1.png" data-desc="Orginal Ubuntu LTS 22.04">
-      <img src="./programmingJourneyAssets/Hypr2.png" data-desc="Orginal Ubuntu LTS 22.04">
-      <img src="./programmingJourneyAssets/Hypr3.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
-      <img src="./programmingJourneyAssets/Hypr4.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
-      <img src="./programmingJourneyAssets/Hypr5.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
-    </div>
-    <div class="divider"></div>
-    
-    <h3>Created this page</h3>
-    <p>I created this page as part of my portfolio for my Early Admissions Exercise. The image carousel was handwritten by me (and not ChatGPT). The original <a target="_blank" href="https://codepen.io/alanhouser/pen/aErrQJ">CSS Timeline</a> is by Alan Houser. I changed the colours to suit my blog and animated it using jQuery.</p>
-    <div class="divider"></div>
-    
-    <h3>Created <a target="_blank" href="https://github.com/AzlanCoding/scrcpyMediaController/">scrcpyMediaController</a></h3>
-    <p>I wrote this script when I got tired studying for Organic Chemistry in preparation for my GCE O-Level examination. Slowly, I kept fixing some bugs until I was satisfied with it. I might compile a proper release binary or maybe even learn C and make a pull request to scrcpy after my exams.</p>
-    <div class="image-carousel">
-      <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-38-55_26599.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
-      <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-58-03_1099.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
-      <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_30-May_20-25-30_20743.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
-      <img src="./programmingJourneyAssets/SMC3.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
-    </div>
-    <div class="divider"></div>
-    
-    <h3><strong>Participated in Youth Cyber Exploration Program (YCEP) and achieved 11th Placing in class</strong></h3>
-    <p style="margin-bottom: 2.5em;">I wanted to explore cybersecurity so I joined this free program. I learnt a lot of things and had a lot of fun. When the final Capture The Flag (CTF) competiion came on the third day, I achieved 11th placing. I learnt that in the future, if I am stuck at one challenge, I should give up and try another one first, otherwise I wold just be wasting time thinking. I have been invited to attend the central YCEP CTF competition and will definitely attend it on 22nd June 2024.</p>
-    <div class="image-carousel">
-      <img src="./programmingJourneyAssets/YCEP0.jpg" data-desc="My certificate of participation.">
-      <!--img src="./programmingJourneyAssets/YCEP1.png" data-desc="Screenshot of ">
-      <img src="./programmingJourneyAssets/YCEP2.png" data-desc="Screenshot of "-->
-      <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image.">
-      <img src="./programmingJourneyAssets/YCEP4.jpg" data-desc="Screenshot of my profile<br>This image is very long, clicking on it may not allow you to see the entire image.">
-      <!--img src="./programmingJourneyAssets/YCEP5.png" data-desc="Screenshot of "-->
-    </div>
-    <div class="divider"></div>
-    
-    <h3><strong>Participated in YCEP Central Capture-The-Flag (CTF) 2024 and achieved 7th Team Placing</strong></h3>
-    <p style="margin-bottom: 2.5em;">I attended the Central Capture-The-Flag (CTF) competition at <a target="_blank" href="https://maps.app.goo.gl/enbFaPWSrcCZL8D89">Cisco Singapore</a></p>
-    <div class="image-carousel">
-      <img src="./programmingJourneyAssets/CCTF0.png" data-desc="The medal and power bank that I won.">
-      <img src="./programmingJourneyAssets/CCTF1.png" data-desc="My certificate of participation.">
-      <img src="./programmingJourneyAssets/CCTF2.png" data-desc="My certificate of excellence.">
-    </div>
+      <h3>Upgraded Ubuntu</h3>
+      <p>I wanted to install <a target="_blank" href="https://hyprland.org/">Hyprland</a>. So I tried to update my ubuntu 22.04 to 23.10 but i broke it along the way. I backed up my files by mounting a thumb drive through tty and transferring my files to that thumb drive. Then I started with a fresh new installation of Ubuntu 23.10 and used this <a target="_blank" href="https://github.com/JaKooLit/Debian-Hyprland">install script</a> to help me install hyprland. Because the script was for debian (at the time I used it), I needed to find all my missing dependencies from the install log. I've since successfully installed hyprland.</p>
+      <div class="image-carousel">
+        <img src="./programmingJourneyAssets/Hypr0.png" data-desc="Orginal Ubuntu LTS 22.04">
+        <img src="./programmingJourneyAssets/Hypr1.png" data-desc="Orginal Ubuntu LTS 22.04">
+        <img src="./programmingJourneyAssets/Hypr2.png" data-desc="Orginal Ubuntu LTS 22.04">
+        <img src="./programmingJourneyAssets/Hypr3.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
+        <img src="./programmingJourneyAssets/Hypr4.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
+        <img src="./programmingJourneyAssets/Hypr5.png" data-desc="Ubuntu 23.10 with Hyprland<br>(Screenshot taken when running on spare laptop)">
+      </div>
+      <div class="divider"></div>
+      
+      <h3>Created this page</h3>
+      <p>I created this page as part of my portfolio for my Early Admissions Exercise. The image carousel was handwritten by me (and not ChatGPT). The original <a target="_blank" href="https://codepen.io/alanhouser/pen/aErrQJ">CSS Timeline</a> is by Alan Houser. I changed the colours to suit my blog and animated it using jQuery.</p>
+      <div class="divider"></div>
+      
+      <h3>Created <a target="_blank" href="https://github.com/AzlanCoding/scrcpyMediaController/">scrcpyMediaController</a></h3>
+      <p>I wrote this script when I got tired studying for Organic Chemistry in preparation for my GCE O-Level examination. Slowly, I kept fixing some bugs until I was satisfied with it. I might compile a proper release binary or maybe even learn C and make a pull request to scrcpy after my exams.</p>
+      <div class="image-carousel">
+        <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-38-55_26599.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
+        <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_02-Jun_10-58-03_1099.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
+        <img src="https://raw.githubusercontent.com/AzlanCoding/scrcpyMediaController/main/Screenshots/Screenshot_30-May_20-25-30_20743.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
+        <img src="./programmingJourneyAssets/SMC3.png" data-desc="Screenshot of scrcpyMediaController in Hyprland">
+      </div>
+      <div class="divider"></div>
+      
+      <h3><strong>Participated in Youth Cyber Exploration Program (YCEP) and achieved 11th Placing in class</strong></h3>
+      <p style="margin-bottom: 2.5em;">I wanted to explore cybersecurity so I joined this free program. I learnt a lot of things and had a lot of fun. When the final Capture The Flag (CTF) competiion came on the third day, I achieved 11th placing. I learnt that in the future, if I am stuck at one challenge, I should give up and try another one first, otherwise I wold just be wasting time thinking. I have been invited to attend the central YCEP CTF competition and will definitely attend it on 22nd June 2024.</p>
+      <div class="image-carousel">
+        <img src="./programmingJourneyAssets/YCEP0.jpg" data-desc="My certificate of participation.">
+        <!--img src="./programmingJourneyAssets/YCEP1.png" data-desc="Screenshot of ">
+        <img src="./programmingJourneyAssets/YCEP2.png" data-desc="Screenshot of "-->
+        <img src="./programmingJourneyAssets/YCEP3.jpg" data-desc="Screenshot of all the CTF challenges I completed and did not complete <br>This image is very long, clicking on it may not allow you to see the entire image.">
+        <img src="./programmingJourneyAssets/YCEP4.jpg" data-desc="Screenshot of my profile<br>This image is very long, clicking on it may not allow you to see the entire image.">
+        <!--img src="./programmingJourneyAssets/YCEP5.png" data-desc="Screenshot of "-->
+      </div>
+      <div class="divider"></div>
+      
+      <h3><strong>Participated in YCEP Central Capture-The-Flag (CTF) 2024 and achieved 7th Team Placing</strong></h3>
+      <p style="margin-bottom: 2.5em;">I attended the Central Capture-The-Flag (CTF) competition at <a target="_blank" href="https://maps.app.goo.gl/enbFaPWSrcCZL8D89">Cisco Singapore</a></p>
+      <div class="image-carousel">
+        <img src="./programmingJourneyAssets/CCTF0.png" data-desc="The medal and power bank that I won.">
+        <img src="./programmingJourneyAssets/CCTF1.png" data-desc="My certificate of participation.">
+        <img src="./programmingJourneyAssets/CCTF2.png" data-desc="My certificate of excellence.">
+      </div>
+      <div class="divider"></div>
+
+
+      <h3><strong>Took a 5 Month Internship at an NUS (National University Singapore) Startup Company</strong></h3>
+      <p style="margin-bottom: 2.5em;">I was offered to take up an internship at a startup company named <a target="_blank" href="https://www.ekko.sg">Ekko AI</a>. I started 1 week after my last O'level paper and finished just before my poly classes were about to start. Through this internship, I gained valuable experience with working together in a development team, and learnt a lot about the cloud. I also gained more experience with writing full stack applications.</p>
+    </li>
+    <li class="event" data-date="2025">
+      <h3>Participated in Mosque Tech Challenge (24hrs)</h3>
+      <p style="margin-bottom: 2.5em;">I'm not very proud of the application that I developed during this competition, but I grateful for the experience of programming throughout the night without sleeping at all while stil needing to fasting during the month of Ramadan.</p>
+      <div class="divider"></div>
+
+      <h3><strong>Enrolled into Nanyang Polytechnic, Diploma in Information Technology</strong></h3>
+      <p style="margin-bottom: 2.5em;">Immediately after my internship ended, I startted my first year at Nanyang Polytechnic. Over here, I took up the Class Representative role for my first year. My expected graduation date is <u>15 April 2028</u>.</p>
+      <div class="divider"></div>
+
+      <h3><strong>Enrolled into Sentinel Programme</strong></h3>
+      <p style="margin-bottom: 2.5em;">After an interview process, I have been accepted into a special programme by the Ministry of Defence. I hope that this <a target="_blank" href="https://www.mindef.gov.sg/dis/sentinel">Sentinel Programme</a> will help me write more secure applications so that we can make the world a safer place.</p>
+      <div class="divider"></div>
+
+      <h3>Participated in BuildingBloCS June Conference (AI Workshop)</h3>
+      <p>I've always been using python for full stack and everything else other than AI. So I decided to join this workshop to learn a little bit on how I can use python to train and use AI. I also tried to go for the Hackathon that was part of this workshop with some of my classmates. But because we were having exams and other events in the same week, we could not finish our project in time, and we just presented what we had to the judges.</p>
+      <div class="image-carousel">
+        <img src="./programmingJourneyAssets/BUILDINGBLOCS0.png" data-desc="My certificate of participation for the workshop.">
+        <img src="./programmingJourneyAssets/BUILDINGBLOCS1.png" data-desc="My certificate of participation for the hackathon.">
+      </div>
     </li>
   </ul>
 </div>
