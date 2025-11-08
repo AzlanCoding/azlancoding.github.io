@@ -44,6 +44,8 @@
 <!--link rel="preload" href="./programmingJourneyAssets/YCEP4.png" as="image"-->
 <link rel="preload" href="./programmingJourneyAssets/BUILDINGBLOCS0.png" as="image">
 <link rel="preload" href="./programmingJourneyAssets/BUILDINGBLOCS1.png" as="image">
+<!-- <link rel="preload" href="./programmingJourneyAssets/MIRAI.png" as="image">  <-- DO NOT DELETE THIS FILE, NEEDED FOR TEXTALIVE APP IMAGE THUMBNAIL   -->
+<link rel="preload" href="./programmingJourneyAssets/SENTINELCYBERSPORTSDAY.png" as="image">
 <style>
   /*Base*/
 /*body {
@@ -542,6 +544,19 @@ h1 {
       <div class="image-carousel">
         <img src="./programmingJourneyAssets/BUILDINGBLOCS0.png" data-desc="My certificate of participation for the workshop.">
         <img src="./programmingJourneyAssets/BUILDINGBLOCS1.png" data-desc="My certificate of participation for the hackathon.">
+      </div>
+      <div class="divider"></div>
+
+      <h3>Participated in the Hatsune Miku Magical Mirai Programming Contest</h3>
+      <p style="margin-bottom: 2.5em;">Over the past 2 years, I started to develop a small obsession with Vocaloid (Specifically with Rin, Len, Miku, Yuki, Teto and IA) and decided to take part in this contest. I was super excted when I learnt about the contest and already started working on my submission in November 2024. The competition required the use of the <a target="_blank" href="https://developer.textalive.jp/packages/textalive-app-api/">TextAlive App API</a> to make a lyric app/game. So I decided to make something interesting, and integrated on-device markerless motion capture into a lyric game. Using <a target="_blank" href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker/web_js">Google MediaPipe's Pose Landmark Detection Library</a>, the program tracks the location of the users hand to detect when the user taps on the lyrics which appear on the screen. I needed to use the full pose landmarker because the hand landmarker detection did not work when moving hands quickly. I think that this is one of my coolest projects. I was disappointed when I realised that I did not get pass the judging stage for public voting, but I am still elated that I was able to take part in this contest. I realised that even though my project was cool and innovative, it severely lacked better graphics and images which was one of the key components in the judging criteria. I should have worked with other people who knew how to draw. Furthermore, the lack of experience with similar rhythm games made the project less successful. (At this point of writing, the only rhythm game I have played is this game that I have developed, not even Project Sekai. If you know me personally you'll understand why.)<br/>Overall, I really enjoyed programming this game and will remember this unforgettable experience forever. It holds a special place in my heart even though its not my most successful one.<br/><br/>Check out the project's <a target="_blank" href="https://github.com/AzlanCoding/tappu-tappu">GitHub</a> repository. You can also play the game <a target="_blank" href="https://azlancoding.github.io/tappu-tappu/">here</a>.
+      </p>
+      <iframe allowfullscreen src="https://www.youtube.com/embed/S5lHWwEp6iE" style="border-radius: 1em; border: none; margin: auto; aspect-ratio: 16/9; display: block; width: 75%"></iframe>
+      <div class="divider"></div>
+
+      <h3><strong>Achieved 3rd Team Placing at Sentinel Cyber Sports Day</strong></h3>
+      <p style="margin-bottom: 2.5em;">Compared to other CTFs out there, this was a very simple CTF designed to test what we have learnt in the Sentinel Program. My team strategised and efficiently split up the work based on difficulty level. I did the "Binary Network" section which consisted of 2 challenges. I spent 25 minutes on the first one and just under an hour on the second one. After that I started to work on another harder challenge but only managed to complete half of it as I ran out of time. Overall, it was a great experience and a significant milestone in my Sentinel Program Journey.</p>
+      <div class="image-carousel">
+        <img src="./programmingJourneyAssets/SENTINELCYBERSPORTSDAY.png" data-desc="My team's entry in the CTFd portal.">
       </div>
     </li>
   </ul>

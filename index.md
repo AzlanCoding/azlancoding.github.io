@@ -7,6 +7,15 @@ Welcome to my blog/portfolio! My name is Azlan. If you would like to get in touc
 This page is here for my Early Admissions Exercise. I might keep this here as part of my blog.
 <br><br>
 
+## [タップタップ](https://azlancoding.github.io/tappu-tappu/)
+[「初音ミク『マジカルミライ 2025』」プログラミング・コンテスト](https://magicalmirai.com/2025/procon/index.html)応募作品です。<br>
+Produced for [Hatsune Miku "Magical Mirai 2025" Programming Contest](https://magicalmirai.com/2025/procon/index_en.html).
+Inspired by Osu and Dance Evolution, Tappu Tappu is a fun interactive game that you can play with your hands. When the lyrics appear on the screen, catch them by tapping them with your hands!<br/>
+Tappu Tappu uses on-device machine learning that utilises the latest technologies to do motion capture in real time. Therefore the default settings in this game are optimized for those with the latest technologies. But you can always change these settings to suit your needs if you are using an older device.<br/><br/>
+Osu や Dance Evolution に影響を受けた **「タップタップ」** は、手を使って楽しめるインタラクティブなゲームです。画面に歌詞が表示されたら、手でタップしてキャッチしましょう！<br>
+「タップタップ」は、リアルタイムでモーションキャプチャを行う最新のオンデバイス機械学習技術を使用しています。そのため、ゲームのデフォルト設定は最新のデバイスに最適化されています。ただし、古いデバイスをお使いの方でも設定を変更することで快適にプレイできます。
+<br><br>
+
 ## [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
 Control your phone/emulator's media playback from your notification panel through MPRIS.<br>
 This script works independently from scrcpy and does not require it to be installed or running for use.
@@ -26,10 +35,10 @@ This repository contains an archive of all of the code I've written for my Robot
 Screenshare is a simple browser to browser screen sharing application between 2 devices. It was a prototype for the Integrated Classroom Hub (another prototype that has not been released to the public) to experiment with the possibility of using WebRTC to do screen casting. This project is referenced heavily from [j0r1's page](https://research.edm.uhasselt.be/jori/page/Main/HomePage.html). Please see the refrences in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md). The source code can be found [here](https://github.com/AzlanCoding/ScreenShare). Installation instructions can also be found in the [README](https://github.com/AzlanCoding/ScreenShare/blob/main/README.md).
 <br><br>
 
-## Renpy3D (UPLOAD PENDING)
+<!-- ## Renpy3D (UPLOAD PENDING)
 **THIS PROJECT IS STILL IN DEVELOPMENT**<br>
 Renpy 3D is a plugin that allows [Ren'Py](https://renpy.org)(a 2D game engine) to render 3D artifacts using Python 3D game engines. It works by using [embedable python](https://github.com/lmbelo/python3-embeddable) to run [Panda3D](https://www.panda3d.org/) or [ursina engine](https://www.ursinaengine.org/) to render 3D artifacts in an offscreen buffer and send it back to the main process through interprocess communication using socket.
-<br><br>
+<br><br> -->
 
 ## [Facial Beauty Rating Software](https://github.com/AzlanCoding/Beauty-Rating-Software)
 This project was a practice for Additional Mathematics Math Modeling in Secondary 3. 
