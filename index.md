@@ -9,11 +9,15 @@ This page is here for my Early Admissions Exercise. I might keep this here as pa
 
 ## [タップタップ](https://azlancoding.github.io/tappu-tappu/)
 [「初音ミク『マジカルミライ 2025』」プログラミング・コンテスト](https://magicalmirai.com/2025/procon/index.html)応募作品です。<br>
-Produced for [Hatsune Miku "Magical Mirai 2025" Programming Contest](https://magicalmirai.com/2025/procon/index_en.html).<br><br>
+Produced for [Hatsune Miku "Magical Mirai 2025" Programming Contest](https://magicalmirai.com/2025/procon/index_en.html).<br>
 Inspired by Osu and Dance Evolution, Tappu Tappu is a fun interactive game that you can play with your hands. When the lyrics appear on the screen, catch them by tapping them with your hands!<br/>
-Tappu Tappu uses on-device machine learning that utilises the latest technologies to do motion capture in real time. Therefore the default settings in this game are optimized for those with the latest technologies. But you can always change these settings to suit your needs if you are using an older device.<br/><br/>
-Osu や Dance Evolution に影響を受けた **「タップタップ」** は、手を使って楽しめるインタラクティブなゲームです。画面に歌詞が表示されたら、手でタップしてキャッチしましょう！<br>
-「タップタップ」は、リアルタイムでモーションキャプチャを行う最新のオンデバイス機械学習技術を使用しています。そのため、ゲームのデフォルト設定は最新のデバイスに最適化されています。ただし、古いデバイスをお使いの方でも設定を変更することで快適にプレイできます。
+Tappu Tappu uses on-device machine learning that utilises the latest technologies to do motion capture in real time. Therefore the default settings in this game are optimized for those with the latest technologies. But you can always change these settings to suit your needs if you are using an older device.<br/>
+You can find the source code for this project [here](https://github.com/AzlanCoding/tappu-tappu).
+<br/>
+Osu や Dance Evolution に影響を受けた **「タップタップ」** は、手を使って楽しめるインタラクティブなゲームです。画面に歌詞が表示されたら、手でタップしてキャッチしましょう！<br/>
+「タップタップ」は、リアルタイムでモーションキャプチャを行う最新のオンデバイス機械学習技術を使用しています。そのため、ゲームのデフォルト設定は最新のデバイスに最適化されています。ただし、古いデバイスをお使いの方でも設定を変更することで快適にプレイできます。<br/>
+このプロジェクトのソースコードは[こちら](https://github.com/AzlanCoding/tappu-tappu)から見つかります。<br>
+<iframe allowfullscreen src="https://www.youtube.com/embed/S5lHWwEp6iE" style="border-radius: 1em; border: none; margin: auto; aspect-ratio: 16/9; display: block; width: 75%"></iframe>
 <br><br>
 
 ## [scrcpyMediaController](https://github.com/AzlanCoding/scrcpyMediaController/)
