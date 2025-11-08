@@ -16,7 +16,7 @@ You can find the source code for this project [here](https://github.com/AzlanCod
 <br/>
 Osu や Dance Evolution に影響を受けた **「タップタップ」** は、手を使って楽しめるインタラクティブなゲームです。画面に歌詞が表示されたら、手でタップしてキャッチしましょう！<br/>
 「タップタップ」は、リアルタイムでモーションキャプチャを行う最新のオンデバイス機械学習技術を使用しています。そのため、ゲームのデフォルト設定は最新のデバイスに最適化されています。ただし、古いデバイスをお使いの方でも設定を変更することで快適にプレイできます。<br/>
-このプロジェクトのソースコードは[こちら](https://github.com/AzlanCoding/tappu-tappu)から見つかります。<br>
+このプロジェクトのソースコードは[こちら](https://github.com/AzlanCoding/tappu-tappu)から見つかります。<br/><br/>
 <iframe allowfullscreen src="https://www.youtube.com/embed/S5lHWwEp6iE" style="border-radius: 1em; border: none; margin: auto; aspect-ratio: 16/9; display: block; width: 75%"></iframe>
 <br><br>
 
