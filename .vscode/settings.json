@@ -1,0 +1,15 @@
+{
+    "[css]": {
+        "editor.indentSize": 2
+    },
+    "[js]": {
+        "editor.indentSize": 2
+    },
+    "[json]": {
+        "editor.indentSize": 2
+    },
+    "[html]": {
+        "editor.indentSize": 2
+    },
+    "editor.formatOnSave": true
+}
